@@ -7,7 +7,9 @@ function cmp(a,b){var x=key(a.version),y=key(b.version);for(var i=0;i<3;i++){if(
 function fmt(d){var p=String(d).split('-');return p.length===3?p[2]+'.'+p[1]+'.'+p[0]:esc(d);}
 function notes(t){var l=String(t||'').split('\n').map(function(s){return s.replace(/^\s*[-*]\s*/,'').trim();}).filter(Boolean);
 return l.length?'<ul>'+l.map(function(s){return'<li>'+esc(s)+'</li>';}).join('')+'</ul>':'';}
-function apk(r){return r.apk_url?'<p><a class="btn alt" href="'+esc(r.apk_url)+'">Скачать APK '+esc(r.version)+(r.size_mb?' ('+esc(r.size_mb)+' МБ)':'')+'</a></p>'+
+var local=/^(localhost|127\.|192\.168\.)/.test(location.hostname);
+function url(r){return local?(r.apk_url||r.gh_apk_url):(r.gh_apk_url||r.apk_url);}
+function apk(r){return url(r)?'<p><a class="btn alt" href="'+esc(url(r))+'">Скачать APK '+esc(r.version)+(r.size_mb?' ('+esc(r.size_mb)+' МБ)':'')+'</a></p>'+
 (r.sha256?'<p class="note">SHA-256: <code>'+esc(r.sha256)+'</code></p>':''):'';}
 fetch('releases.json',{cache:'no-cache'}).then(function(x){return x.json();}).then(function(d){
 var rs=(d.releases||[]).slice().sort(cmp);
