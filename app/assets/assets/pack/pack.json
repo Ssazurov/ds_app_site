@@ -35,31 +35,13 @@
    "order": 3
   },
   {
-   "id": "body",
+   "id": "descriptors",
    "title": {
-    "ru": "Тело"
-   },
-   "age_min": 12,
-   "age_max": 72,
-   "order": 4
-  },
-  {
-   "id": "household",
-   "title": {
-    "ru": "Дом"
+    "ru": "Признаки"
    },
    "age_min": 24,
    "age_max": 72,
-   "order": 5
-  },
-  {
-   "id": "toys_games",
-   "title": {
-    "ru": "Игрушки и игры"
-   },
-   "age_min": 12,
-   "age_max": 72,
-   "order": 6
+   "order": 4
   },
   {
    "id": "clothes",
@@ -68,14 +50,32 @@
    },
    "age_min": 24,
    "age_max": 72,
+   "order": 5
+  },
+  {
+   "id": "household",
+   "title": {
+    "ru": "Дом"
+   },
+   "age_min": 24,
+   "age_max": 72,
+   "order": 6
+  },
+  {
+   "id": "body",
+   "title": {
+    "ru": "Тело"
+   },
+   "age_min": 12,
+   "age_max": 72,
    "order": 7
   },
   {
-   "id": "transport",
+   "id": "toys_games",
    "title": {
-    "ru": "Транспорт"
+    "ru": "Игрушки и игры"
    },
-   "age_min": 24,
+   "age_min": 12,
    "age_max": 72,
    "order": 8
   },
@@ -89,13 +89,22 @@
    "order": 9
   },
   {
-   "id": "outside",
+   "id": "feelings",
    "title": {
-    "ru": "На улице"
+    "ru": "Чувства"
    },
    "age_min": 24,
    "age_max": 72,
    "order": 10
+  },
+  {
+   "id": "transport",
+   "title": {
+    "ru": "Транспорт"
+   },
+   "age_min": 24,
+   "age_max": 72,
+   "order": 11
   },
   {
    "id": "furniture",
@@ -104,52 +113,7 @@
    },
    "age_min": 24,
    "age_max": 72,
-   "order": 11
-  },
-  {
-   "id": "people",
-   "title": {
-    "ru": "Люди"
-   },
-   "age_min": 24,
-   "age_max": 84,
    "order": 12
-  },
-  {
-   "id": "places",
-   "title": {
-    "ru": "Места"
-   },
-   "age_min": 24,
-   "age_max": 72,
-   "order": 13
-  },
-  {
-   "id": "health",
-   "title": {
-    "ru": "Здоровье"
-   },
-   "age_min": 36,
-   "age_max": 96,
-   "order": 14
-  },
-  {
-   "id": "sport",
-   "title": {
-    "ru": "Спорт"
-   },
-   "age_min": 48,
-   "age_max": 120,
-   "order": 15
-  },
-  {
-   "id": "feelings",
-   "title": {
-    "ru": "Чувства"
-   },
-   "age_min": 24,
-   "age_max": 72,
-   "order": 16
   },
   {
    "id": "colors",
@@ -158,7 +122,16 @@
    },
    "age_min": 24,
    "age_max": 72,
-   "order": 17
+   "order": 13
+  },
+  {
+   "id": "places",
+   "title": {
+    "ru": "Места"
+   },
+   "age_min": 24,
+   "age_max": 72,
+   "order": 14
   },
   {
    "id": "family",
@@ -167,16 +140,25 @@
    },
    "age_min": 12,
    "age_max": 48,
-   "order": 18
+   "order": 15
   },
   {
-   "id": "descriptors",
+   "id": "core_verbs",
    "title": {
-    "ru": "Признаки"
+    "ru": "Главные глаголы"
+   },
+   "age_min": 12,
+   "age_max": 60,
+   "order": 16
+  },
+  {
+   "id": "pronouns_questions",
+   "title": {
+    "ru": "Местоимения и вопросы"
    },
    "age_min": 24,
    "age_max": 72,
-   "order": 19
+   "order": 17
   },
   {
    "id": "numbers_shapes",
@@ -185,7 +167,7 @@
    },
    "age_min": 24,
    "age_max": 72,
-   "order": 20
+   "order": 18
   },
   {
    "id": "prepositions_quantity",
@@ -194,7 +176,7 @@
    },
    "age_min": 24,
    "age_max": 72,
-   "order": 21
+   "order": 19
   },
   {
    "id": "time",
@@ -203,7 +185,52 @@
    },
    "age_min": 24,
    "age_max": 72,
+   "order": 20
+  },
+  {
+   "id": "health_routines",
+   "title": {
+    "ru": "Режим дня"
+   },
+   "age_min": 24,
+   "age_max": 72,
+   "order": 21
+  },
+  {
+   "id": "outside",
+   "title": {
+    "ru": "На улице"
+   },
+   "age_min": 24,
+   "age_max": 72,
    "order": 22
+  },
+  {
+   "id": "people",
+   "title": {
+    "ru": "Люди"
+   },
+   "age_min": 24,
+   "age_max": 84,
+   "order": 23
+  },
+  {
+   "id": "health",
+   "title": {
+    "ru": "Здоровье"
+   },
+   "age_min": 36,
+   "age_max": 96,
+   "order": 24
+  },
+  {
+   "id": "sport",
+   "title": {
+    "ru": "Спорт"
+   },
+   "age_min": 48,
+   "age_max": 120,
+   "order": 25
   },
   {
    "id": "school",
@@ -212,7 +239,7 @@
    },
    "age_min": 36,
    "age_max": 96,
-   "order": 23
+   "order": 26
   },
   {
    "id": "social",
@@ -221,7 +248,7 @@
    },
    "age_min": 24,
    "age_max": 72,
-   "order": 24
+   "order": 27
   }
  ],
  "cards": [
@@ -236,7 +263,8 @@
    "audio": {
     "ru": "audio/ru/angry.mp3"
    },
-   "pos": "adj"
+   "pos": "adj",
+   "prio": 1
   },
   {
    "id": "apple",
@@ -249,7 +277,8 @@
    "audio": {
     "ru": "audio/ru/apple.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "arm",
@@ -262,7 +291,22 @@
    "audio": {
     "ru": "audio/ru/arm.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "ball",
+   "section": "household",
+   "order": 1,
+   "image": "images/ball.webp",
+   "text": {
+    "ru": "мяч"
+   },
+   "audio": {
+    "ru": "audio/ru/ball.mp3"
+   },
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "banana",
@@ -275,7 +319,22 @@
    "audio": {
     "ru": "audio/ru/banana.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "bed",
+   "section": "furniture",
+   "order": 1,
+   "image": "images/bed.webp",
+   "text": {
+    "ru": "кровать"
+   },
+   "audio": {
+    "ru": "audio/ru/bed.mp3"
+   },
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "belly",
@@ -288,7 +347,22 @@
    "audio": {
     "ru": "audio/ru/belly.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "big",
+   "section": "descriptors",
+   "order": 1,
+   "image": "images/big.webp",
+   "text": {
+    "ru": "большой"
+   },
+   "audio": {
+    "ru": "audio/ru/big.mp3"
+   },
+   "pos": "adj",
+   "prio": 1
   },
   {
    "id": "bird",
@@ -301,7 +375,8 @@
    "audio": {
     "ru": "audio/ru/bird.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "blue",
@@ -314,7 +389,22 @@
    "audio": {
     "ru": "audio/ru/blue.mp3"
    },
-   "pos": "adj"
+   "pos": "adj",
+   "prio": 1
+  },
+  {
+   "id": "book",
+   "section": "household",
+   "order": 2,
+   "image": "images/book.webp",
+   "text": {
+    "ru": "книга"
+   },
+   "audio": {
+    "ru": "audio/ru/book.mp3"
+   },
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "bread",
@@ -327,7 +417,8 @@
    "audio": {
     "ru": "audio/ru/bread.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "bus",
@@ -340,7 +431,8 @@
    "audio": {
     "ru": "audio/ru/bus.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "car",
@@ -353,7 +445,22 @@
    "audio": {
     "ru": "audio/ru/car.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "cartoon",
+   "section": "toys_games",
+   "order": 1,
+   "image": "images/cartoon.webp",
+   "text": {
+    "ru": "мультик"
+   },
+   "audio": {
+    "ru": "audio/ru/cartoon.mp3"
+   },
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "cat",
@@ -366,12 +473,13 @@
    "audio": {
     "ru": "audio/ru/cat.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "chair",
    "section": "furniture",
-   "order": 1,
+   "order": 2,
    "image": "images/chair.webp",
    "text": {
     "ru": "стул"
@@ -379,7 +487,22 @@
    "audio": {
     "ru": "audio/ru/chair.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "come",
+   "section": "core_verbs",
+   "order": 1,
+   "image": "images/come.webp",
+   "text": {
+    "ru": "идти сюда"
+   },
+   "audio": {
+    "ru": "audio/ru/come.mp3"
+   },
+   "pos": "v",
+   "prio": 1
   },
   {
    "id": "cup",
@@ -392,12 +515,27 @@
    "audio": {
     "ru": "audio/ru/cup.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "dad",
+   "section": "family",
+   "order": 1,
+   "image": "images/dad.webp",
+   "text": {
+    "ru": "папа"
+   },
+   "audio": {
+    "ru": "audio/ru/dad.mp3"
+   },
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "doctor",
    "section": "family",
-   "order": 1,
+   "order": 2,
    "image": "images/doctor.webp",
    "text": {
     "ru": "врач"
@@ -405,7 +543,8 @@
    "audio": {
     "ru": "audio/ru/doctor.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "dog",
@@ -418,12 +557,13 @@
    "audio": {
     "ru": "audio/ru/dog.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "doll",
    "section": "toys_games",
-   "order": 1,
+   "order": 2,
    "image": "images/doll.webp",
    "text": {
     "ru": "кукла"
@@ -431,12 +571,13 @@
    "audio": {
     "ru": "audio/ru/doll.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "door",
    "section": "household",
-   "order": 1,
+   "order": 3,
    "image": "images/door.webp",
    "text": {
     "ru": "дверь"
@@ -444,7 +585,8 @@
    "audio": {
     "ru": "audio/ru/door.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "drink",
@@ -457,7 +599,8 @@
    "audio": {
     "ru": "audio/ru/drink.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 1
   },
   {
    "id": "ear",
@@ -470,7 +613,8 @@
    "audio": {
     "ru": "audio/ru/ear.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "eat",
@@ -483,7 +627,8 @@
    "audio": {
     "ru": "audio/ru/eat.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 1
   },
   {
    "id": "egg",
@@ -496,7 +641,8 @@
    "audio": {
     "ru": "audio/ru/egg.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "eye",
@@ -509,7 +655,8 @@
    "audio": {
     "ru": "audio/ru/eye.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "fork",
@@ -522,7 +669,22 @@
    "audio": {
     "ru": "audio/ru/fork.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "friend",
+   "section": "family",
+   "order": 3,
+   "image": "images/friend.webp",
+   "text": {
+    "ru": "друг"
+   },
+   "audio": {
+    "ru": "audio/ru/friend.mp3"
+   },
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "give",
@@ -535,12 +697,41 @@
    "audio": {
     "ru": "audio/ru/give.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 1
+  },
+  {
+   "id": "go",
+   "section": "core_verbs",
+   "order": 2,
+   "image": "images/go.webp",
+   "text": {
+    "ru": "идти туда"
+   },
+   "audio": {
+    "ru": "audio/ru/go.mp3"
+   },
+   "pos": "v",
+   "prio": 1
+  },
+  {
+   "id": "good",
+   "section": "descriptors",
+   "order": 2,
+   "image": "images/good.webp",
+   "text": {
+    "ru": "хороший"
+   },
+   "audio": {
+    "ru": "audio/ru/good.mp3"
+   },
+   "pos": "adj",
+   "prio": 1
   },
   {
    "id": "grandma",
    "section": "family",
-   "order": 2,
+   "order": 4,
    "image": "images/grandma.webp",
    "text": {
     "ru": "бабушка"
@@ -548,12 +739,13 @@
    "audio": {
     "ru": "audio/ru/grandma.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "grandpa",
    "section": "family",
-   "order": 3,
+   "order": 5,
    "image": "images/grandpa.webp",
    "text": {
     "ru": "дедушка"
@@ -561,7 +753,22 @@
    "audio": {
     "ru": "audio/ru/grandpa.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "green",
+   "section": "colors",
+   "order": 2,
+   "image": "images/green.webp",
+   "text": {
+    "ru": "зелёный"
+   },
+   "audio": {
+    "ru": "audio/ru/green.mp3"
+   },
+   "pos": "adj",
+   "prio": 1
   },
   {
    "id": "happy",
@@ -574,7 +781,22 @@
    "audio": {
     "ru": "audio/ru/happy.mp3"
    },
-   "pos": "adj"
+   "pos": "adj",
+   "prio": 1
+  },
+  {
+   "id": "hat",
+   "section": "clothes",
+   "order": 1,
+   "image": "images/hat.webp",
+   "text": {
+    "ru": "шапка"
+   },
+   "audio": {
+    "ru": "audio/ru/hat.mp3"
+   },
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "head",
@@ -587,7 +809,8 @@
    "audio": {
     "ru": "audio/ru/head.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "help",
@@ -600,7 +823,22 @@
    "audio": {
     "ru": "audio/ru/help.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 1
+  },
+  {
+   "id": "here",
+   "section": "prepositions_quantity",
+   "order": 1,
+   "image": "images/here.webp",
+   "text": {
+    "ru": "здесь"
+   },
+   "audio": {
+    "ru": "audio/ru/here.mp3"
+   },
+   "pos": "adv",
+   "prio": 1
   },
   {
    "id": "home",
@@ -613,12 +851,41 @@
    "audio": {
     "ru": "audio/ru/home.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "hot_adj",
+   "section": "descriptors",
+   "order": 3,
+   "image": "images/hot_adj.webp",
+   "text": {
+    "ru": "горячий"
+   },
+   "audio": {
+    "ru": "audio/ru/hot_adj.mp3"
+   },
+   "pos": "adj",
+   "prio": 1
+  },
+  {
+   "id": "hungry",
+   "section": "feelings",
+   "order": 3,
+   "image": "images/hungry.webp",
+   "text": {
+    "ru": "голодный"
+   },
+   "audio": {
+    "ru": "audio/ru/hungry.mp3"
+   },
+   "pos": "adj",
+   "prio": 1
   },
   {
    "id": "jacket",
    "section": "clothes",
-   "order": 1,
+   "order": 2,
    "image": "images/jacket.webp",
    "text": {
     "ru": "куртка"
@@ -626,7 +893,8 @@
    "audio": {
     "ru": "audio/ru/jacket.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "juice",
@@ -639,7 +907,8 @@
    "audio": {
     "ru": "audio/ru/juice.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "leg",
@@ -652,7 +921,50 @@
    "audio": {
     "ru": "audio/ru/leg.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "like",
+   "section": "core_verbs",
+   "order": 3,
+   "image": "images/like.webp",
+   "text": {
+    "ru": "нравиться"
+   },
+   "audio": {
+    "ru": "audio/ru/like.mp3"
+   },
+   "pos": "v",
+   "prio": 1
+  },
+  {
+   "id": "little",
+   "section": "descriptors",
+   "order": 4,
+   "image": "images/little.webp",
+   "text": {
+    "ru": "маленький"
+   },
+   "audio": {
+    "ru": "audio/ru/little.mp3"
+   },
+   "pos": "adj",
+   "prio": 1
+  },
+  {
+   "id": "me",
+   "section": "family",
+   "order": 6,
+   "image": "images/me.webp",
+   "text": {
+    "ru": "я"
+   },
+   "audio": {
+    "ru": "audio/ru/me.mp3"
+   },
+   "pos": "pron",
+   "prio": 1
   },
   {
    "id": "milk",
@@ -665,7 +977,36 @@
    "audio": {
     "ru": "audio/ru/milk.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "mom",
+   "section": "family",
+   "order": 7,
+   "image": "images/mom.webp",
+   "text": {
+    "ru": "мама"
+   },
+   "audio": {
+    "ru": "audio/ru/mom.mp3"
+   },
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "more",
+   "section": "feelings",
+   "order": 4,
+   "image": "images/more.webp",
+   "text": {
+    "ru": "ещё"
+   },
+   "audio": {
+    "ru": "audio/ru/more.mp3"
+   },
+   "pos": "adv",
+   "prio": 1
   },
   {
    "id": "mouth",
@@ -678,7 +1019,78 @@
    "audio": {
     "ru": "audio/ru/mouth.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "my",
+   "section": "pronouns_questions",
+   "order": 1,
+   "image": "images/my.webp",
+   "text": {
+    "ru": "мой"
+   },
+   "audio": {
+    "ru": "audio/ru/my.mp3"
+   },
+   "pos": "pron",
+   "prio": 1
+  },
+  {
+   "id": "n1",
+   "section": "numbers_shapes",
+   "order": 1,
+   "image": "images/n1.webp",
+   "text": {
+    "ru": "один"
+   },
+   "audio": {
+    "ru": "audio/ru/n1.mp3"
+   },
+   "pos": "adj",
+   "prio": 1
+  },
+  {
+   "id": "n2",
+   "section": "numbers_shapes",
+   "order": 2,
+   "image": "images/n2.webp",
+   "text": {
+    "ru": "два"
+   },
+   "audio": {
+    "ru": "audio/ru/n2.mp3"
+   },
+   "pos": "adj",
+   "prio": 1
+  },
+  {
+   "id": "need",
+   "section": "core_verbs",
+   "order": 4,
+   "image": "images/need.webp",
+   "text": {
+    "ru": "нужно"
+   },
+   "audio": {
+    "ru": "audio/ru/need.mp3"
+   },
+   "pos": "v",
+   "prio": 1
+  },
+  {
+   "id": "no",
+   "section": "feelings",
+   "order": 5,
+   "image": "images/no.webp",
+   "text": {
+    "ru": "нет"
+   },
+   "audio": {
+    "ru": "audio/ru/no.mp3"
+   },
+   "pos": "interj",
+   "prio": 1
   },
   {
    "id": "nose",
@@ -691,7 +1103,8 @@
    "audio": {
     "ru": "audio/ru/nose.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "now",
@@ -704,7 +1117,36 @@
    "audio": {
     "ru": "audio/ru/now.mp3"
    },
-   "pos": "adv"
+   "pos": "adv",
+   "prio": 1
+  },
+  {
+   "id": "pain",
+   "section": "feelings",
+   "order": 6,
+   "image": "images/pain.webp",
+   "text": {
+    "ru": "больно"
+   },
+   "audio": {
+    "ru": "audio/ru/pain.mp3"
+   },
+   "pos": "adv",
+   "prio": 1
+  },
+  {
+   "id": "phone",
+   "section": "household",
+   "order": 4,
+   "image": "images/phone.webp",
+   "text": {
+    "ru": "телефон"
+   },
+   "audio": {
+    "ru": "audio/ru/phone.mp3"
+   },
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "plate",
@@ -717,7 +1159,8 @@
    "audio": {
     "ru": "audio/ru/plate.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "play",
@@ -730,7 +1173,8 @@
    "audio": {
     "ru": "audio/ru/play.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 1
   },
   {
    "id": "porridge",
@@ -743,12 +1187,27 @@
    "audio": {
     "ru": "audio/ru/porridge.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "red",
+   "section": "colors",
+   "order": 3,
+   "image": "images/red.webp",
+   "text": {
+    "ru": "красный"
+   },
+   "audio": {
+    "ru": "audio/ru/red.mp3"
+   },
+   "pos": "adj",
+   "prio": 1
   },
   {
    "id": "sad",
    "section": "feelings",
-   "order": 3,
+   "order": 7,
    "image": "images/sad.webp",
    "text": {
     "ru": "грустный"
@@ -756,12 +1215,13 @@
    "audio": {
     "ru": "audio/ru/sad.mp3"
    },
-   "pos": "adj"
+   "pos": "adj",
+   "prio": 1
   },
   {
    "id": "shoes",
    "section": "clothes",
-   "order": 2,
+   "order": 3,
    "image": "images/shoes.webp",
    "text": {
     "ru": "ботинки"
@@ -769,7 +1229,22 @@
    "audio": {
     "ru": "audio/ru/shoes.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "shop",
+   "section": "places",
+   "order": 2,
+   "image": "images/shop.webp",
+   "text": {
+    "ru": "магазин"
+   },
+   "audio": {
+    "ru": "audio/ru/shop.mp3"
+   },
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "sleep",
@@ -782,12 +1257,13 @@
    "audio": {
     "ru": "audio/ru/sleep.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 1
   },
   {
    "id": "soap",
    "section": "household",
-   "order": 2,
+   "order": 5,
    "image": "images/soap.webp",
    "text": {
     "ru": "мыло"
@@ -795,12 +1271,13 @@
    "audio": {
     "ru": "audio/ru/soap.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "socks",
    "section": "clothes",
-   "order": 3,
+   "order": 4,
    "image": "images/socks.webp",
    "text": {
     "ru": "носки"
@@ -808,7 +1285,22 @@
    "audio": {
     "ru": "audio/ru/socks.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "soup",
+   "section": "food",
+   "order": 8,
+   "image": "images/soup.webp",
+   "text": {
+    "ru": "суп"
+   },
+   "audio": {
+    "ru": "audio/ru/soup.mp3"
+   },
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "spoon",
@@ -821,12 +1313,27 @@
    "audio": {
     "ru": "audio/ru/spoon.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "stop",
+   "section": "core_verbs",
+   "order": 5,
+   "image": "images/stop.webp",
+   "text": {
+    "ru": "стоп"
+   },
+   "audio": {
+    "ru": "audio/ru/stop.mp3"
+   },
+   "pos": "v",
+   "prio": 1
   },
   {
    "id": "t_shirt",
    "section": "clothes",
-   "order": 4,
+   "order": 5,
    "image": "images/t_shirt.webp",
    "text": {
     "ru": "футболка"
@@ -834,12 +1341,41 @@
    "audio": {
     "ru": "audio/ru/t_shirt.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "table",
+   "section": "furniture",
+   "order": 3,
+   "image": "images/table.webp",
+   "text": {
+    "ru": "стол"
+   },
+   "audio": {
+    "ru": "audio/ru/table.mp3"
+   },
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "tasty",
+   "section": "descriptors",
+   "order": 5,
+   "image": "images/tasty.webp",
+   "text": {
+    "ru": "вкусный"
+   },
+   "audio": {
+    "ru": "audio/ru/tasty.mp3"
+   },
+   "pos": "adj",
+   "prio": 1
   },
   {
    "id": "teddy_bear",
    "section": "toys_games",
-   "order": 2,
+   "order": 3,
    "image": "images/teddy_bear.webp",
    "text": {
     "ru": "мишка"
@@ -847,12 +1383,27 @@
    "audio": {
     "ru": "audio/ru/teddy_bear.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "this",
+   "section": "pronouns_questions",
+   "order": 2,
+   "image": "images/this.webp",
+   "text": {
+    "ru": "это"
+   },
+   "audio": {
+    "ru": "audio/ru/this.mp3"
+   },
+   "pos": "pron",
+   "prio": 1
   },
   {
    "id": "toilet",
    "section": "household",
-   "order": 3,
+   "order": 6,
    "image": "images/toilet.webp",
    "text": {
     "ru": "туалет"
@@ -860,12 +1411,41 @@
    "audio": {
     "ru": "audio/ru/toilet.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "toilet_go",
+   "section": "health_routines",
+   "order": 1,
+   "image": "images/toilet_go.webp",
+   "text": {
+    "ru": "хочу в туалет"
+   },
+   "audio": {
+    "ru": "audio/ru/toilet_go.mp3"
+   },
+   "pos": "v",
+   "prio": 1
+  },
+  {
+   "id": "toothbrush",
+   "section": "household",
+   "order": 7,
+   "image": "images/toothbrush.webp",
+   "text": {
+    "ru": "зубная щётка"
+   },
+   "audio": {
+    "ru": "audio/ru/toothbrush.mp3"
+   },
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "towel",
    "section": "household",
-   "order": 4,
+   "order": 8,
    "image": "images/towel.webp",
    "text": {
     "ru": "полотенце"
@@ -873,12 +1453,13 @@
    "audio": {
     "ru": "audio/ru/towel.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "toy",
    "section": "household",
-   "order": 5,
+   "order": 9,
    "image": "images/toy.webp",
    "text": {
     "ru": "игрушка"
@@ -886,12 +1467,13 @@
    "audio": {
     "ru": "audio/ru/toy.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "trousers",
    "section": "clothes",
-   "order": 5,
+   "order": 6,
    "image": "images/trousers.webp",
    "text": {
     "ru": "штаны"
@@ -899,7 +1481,8 @@
    "audio": {
     "ru": "audio/ru/trousers.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
   },
   {
    "id": "walk",
@@ -912,12 +1495,27 @@
    "audio": {
     "ru": "audio/ru/walk.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 1
+  },
+  {
+   "id": "want",
+   "section": "actions",
+   "order": 8,
+   "image": "images/want.webp",
+   "text": {
+    "ru": "хотеть"
+   },
+   "audio": {
+    "ru": "audio/ru/want.mp3"
+   },
+   "pos": "v",
+   "prio": 1
   },
   {
    "id": "wash",
    "section": "actions",
-   "order": 8,
+   "order": 9,
    "image": "images/wash.webp",
    "text": {
     "ru": "мыть"
@@ -925,12 +1523,27 @@
    "audio": {
     "ru": "audio/ru/wash.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 1
+  },
+  {
+   "id": "wash_hands",
+   "section": "health_routines",
+   "order": 2,
+   "image": "images/wash_hands.webp",
+   "text": {
+    "ru": "мыть руки"
+   },
+   "audio": {
+    "ru": "audio/ru/wash_hands.mp3"
+   },
+   "pos": "v",
+   "prio": 1
   },
   {
    "id": "water",
    "section": "food",
-   "order": 8,
+   "order": 9,
    "image": "images/water.webp",
    "text": {
     "ru": "вода"
@@ -938,7 +1551,78 @@
    "audio": {
     "ru": "audio/ru/water.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 1
+  },
+  {
+   "id": "what",
+   "section": "pronouns_questions",
+   "order": 3,
+   "image": "images/what.webp",
+   "text": {
+    "ru": "что"
+   },
+   "audio": {
+    "ru": "audio/ru/what.mp3"
+   },
+   "pos": "pron",
+   "prio": 1
+  },
+  {
+   "id": "where",
+   "section": "pronouns_questions",
+   "order": 4,
+   "image": "images/where.webp",
+   "text": {
+    "ru": "где"
+   },
+   "audio": {
+    "ru": "audio/ru/where.mp3"
+   },
+   "pos": "adv",
+   "prio": 1
+  },
+  {
+   "id": "who",
+   "section": "pronouns_questions",
+   "order": 5,
+   "image": "images/who.webp",
+   "text": {
+    "ru": "кто"
+   },
+   "audio": {
+    "ru": "audio/ru/who.mp3"
+   },
+   "pos": "pron",
+   "prio": 1
+  },
+  {
+   "id": "yellow",
+   "section": "colors",
+   "order": 4,
+   "image": "images/yellow.webp",
+   "text": {
+    "ru": "жёлтый"
+   },
+   "audio": {
+    "ru": "audio/ru/yellow.mp3"
+   },
+   "pos": "adj",
+   "prio": 1
+  },
+  {
+   "id": "yes",
+   "section": "feelings",
+   "order": 8,
+   "image": "images/yes.webp",
+   "text": {
+    "ru": "да"
+   },
+   "audio": {
+    "ru": "audio/ru/yes.mp3"
+   },
+   "pos": "interj",
+   "prio": 1
   },
   {
    "id": "aeroplane",
@@ -951,7 +1635,8 @@
    "audio": {
     "ru": "audio/ru/aeroplane.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "ant",
@@ -964,12 +1649,27 @@
    "audio": {
     "ru": "audio/ru/ant.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "ant_eater",
+   "section": "animals",
+   "order": 5,
+   "image": "images/ant_eater.webp",
+   "text": {
+    "ru": "муравьед"
+   },
+   "audio": {
+    "ru": "audio/ru/ant_eater.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "antelope",
    "section": "animals",
-   "order": 5,
+   "order": 6,
    "image": "images/antelope.webp",
    "text": {
     "ru": "антилопа"
@@ -977,12 +1677,13 @@
    "audio": {
     "ru": "audio/ru/antelope.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "apple_juice",
    "section": "food",
-   "order": 9,
+   "order": 10,
    "image": "images/apple_juice.webp",
    "text": {
     "ru": "яблочный сок"
@@ -990,12 +1691,13 @@
    "audio": {
     "ru": "audio/ru/apple_juice.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "apron",
    "section": "household",
-   "order": 6,
+   "order": 10,
    "image": "images/apron.webp",
    "text": {
     "ru": "фартук"
@@ -1003,7 +1705,8 @@
    "audio": {
     "ru": "audio/ru/apron.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "arms",
@@ -1016,12 +1719,13 @@
    "audio": {
     "ru": "audio/ru/arms.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "asparagus",
    "section": "food",
-   "order": 10,
+   "order": 11,
    "image": "images/asparagus.webp",
    "text": {
     "ru": "спаржа"
@@ -1029,12 +1733,13 @@
    "audio": {
     "ru": "audio/ru/asparagus.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "aubergine",
    "section": "food",
-   "order": 11,
+   "order": 12,
    "image": "images/aubergine.webp",
    "text": {
     "ru": "баклажан"
@@ -1042,7 +1747,8 @@
    "audio": {
     "ru": "audio/ru/aubergine.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "autumn",
@@ -1055,12 +1761,27 @@
    "audio": {
     "ru": "audio/ru/autumn.mp3"
    },
-   "pos": "adv"
+   "pos": "adv",
+   "prio": 2
+  },
+  {
+   "id": "avocado",
+   "section": "food",
+   "order": 13,
+   "image": "images/avocado.webp",
+   "text": {
+    "ru": "авокадо"
+   },
+   "audio": {
+    "ru": "audio/ru/avocado.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "bacon",
    "section": "food",
-   "order": 12,
+   "order": 14,
    "image": "images/bacon.webp",
    "text": {
     "ru": "бекон"
@@ -1068,12 +1789,27 @@
    "audio": {
     "ru": "audio/ru/bacon.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "bad",
+   "section": "descriptors",
+   "order": 6,
+   "image": "images/bad.webp",
+   "text": {
+    "ru": "плохой"
+   },
+   "audio": {
+    "ru": "audio/ru/bad.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "bagel",
    "section": "food",
-   "order": 13,
+   "order": 15,
    "image": "images/bagel.webp",
    "text": {
     "ru": "бублик"
@@ -1081,12 +1817,13 @@
    "audio": {
     "ru": "audio/ru/bagel.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "basket",
    "section": "household",
-   "order": 7,
+   "order": 11,
    "image": "images/basket.webp",
    "text": {
     "ru": "корзина"
@@ -1094,12 +1831,13 @@
    "audio": {
     "ru": "audio/ru/basket.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "beanbag",
    "section": "toys_games",
-   "order": 3,
+   "order": 4,
    "image": "images/beanbag.webp",
    "text": {
     "ru": "кресло-мешок"
@@ -1107,12 +1845,13 @@
    "audio": {
     "ru": "audio/ru/beanbag.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "beef",
    "section": "food",
-   "order": 14,
+   "order": 16,
    "image": "images/beef.webp",
    "text": {
     "ru": "говядина"
@@ -1120,12 +1859,13 @@
    "audio": {
     "ru": "audio/ru/beef.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "beetle",
    "section": "animals",
-   "order": 6,
+   "order": 7,
    "image": "images/beetle.webp",
    "text": {
     "ru": "жук"
@@ -1133,12 +1873,13 @@
    "audio": {
     "ru": "audio/ru/beetle.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "beetroot",
    "section": "food",
-   "order": 15,
+   "order": 17,
    "image": "images/beetroot.webp",
    "text": {
     "ru": "свекла"
@@ -1146,12 +1887,13 @@
    "audio": {
     "ru": "audio/ru/beetroot.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "bikini",
    "section": "clothes",
-   "order": 6,
+   "order": 7,
    "image": "images/bikini.webp",
    "text": {
     "ru": "бикини"
@@ -1159,12 +1901,13 @@
    "audio": {
     "ru": "audio/ru/bikini.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "bingo",
    "section": "toys_games",
-   "order": 4,
+   "order": 5,
    "image": "images/bingo.webp",
    "text": {
     "ru": "бинго"
@@ -1172,12 +1915,27 @@
    "audio": {
     "ru": "audio/ru/bingo.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "blind",
+   "section": "descriptors",
+   "order": 7,
+   "image": "images/blind.webp",
+   "text": {
+    "ru": "слепой"
+   },
+   "audio": {
+    "ru": "audio/ru/blind.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "blouse",
    "section": "clothes",
-   "order": 7,
+   "order": 8,
    "image": "images/blouse.webp",
    "text": {
     "ru": "блузка"
@@ -1185,7 +1943,8 @@
    "audio": {
     "ru": "audio/ru/blouse.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "bone",
@@ -1198,12 +1957,13 @@
    "audio": {
     "ru": "audio/ru/bone.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "book_shelf",
    "section": "furniture",
-   "order": 2,
+   "order": 4,
    "image": "images/book_shelf.webp",
    "text": {
     "ru": "книжная полка"
@@ -1211,12 +1971,13 @@
    "audio": {
     "ru": "audio/ru/book_shelf.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "bookcase",
    "section": "furniture",
-   "order": 3,
+   "order": 5,
    "image": "images/bookcase.webp",
    "text": {
     "ru": "книжный шкаф"
@@ -1224,7 +1985,8 @@
    "audio": {
     "ru": "audio/ru/bookcase.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "bottom",
@@ -1237,12 +1999,27 @@
    "audio": {
     "ru": "audio/ru/bottom.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "bow",
+   "section": "clothes",
+   "order": 9,
+   "image": "images/bow.webp",
+   "text": {
+    "ru": "бант"
+   },
+   "audio": {
+    "ru": "audio/ru/bow.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "bow_tie",
    "section": "clothes",
-   "order": 8,
+   "order": 10,
    "image": "images/bow_tie.webp",
    "text": {
     "ru": "галстук-бабочка"
@@ -1250,12 +2027,13 @@
    "audio": {
     "ru": "audio/ru/bow_tie.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "bra",
    "section": "clothes",
-   "order": 9,
+   "order": 11,
    "image": "images/bra.webp",
    "text": {
     "ru": "бюстгальтер"
@@ -1263,12 +2041,13 @@
    "audio": {
     "ru": "audio/ru/bra.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "bricks",
    "section": "toys_games",
-   "order": 5,
+   "order": 6,
    "image": "images/bricks.webp",
    "text": {
     "ru": "кирпичи"
@@ -1276,12 +2055,13 @@
    "audio": {
     "ru": "audio/ru/bricks.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "brie_cheese",
    "section": "food",
-   "order": 16,
+   "order": 18,
    "image": "images/brie_cheese.webp",
    "text": {
     "ru": "сыр бри"
@@ -1289,7 +2069,22 @@
    "audio": {
     "ru": "audio/ru/brie_cheese.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "broken",
+   "section": "descriptors",
+   "order": 8,
+   "image": "images/broken.webp",
+   "text": {
+    "ru": "сломанный"
+   },
+   "audio": {
+    "ru": "audio/ru/broken.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "bush",
@@ -1302,12 +2097,13 @@
    "audio": {
     "ru": "audio/ru/bush.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "busy",
    "section": "descriptors",
-   "order": 1,
+   "order": 9,
    "image": "images/busy.webp",
    "text": {
     "ru": "занятый"
@@ -1315,12 +2111,13 @@
    "audio": {
     "ru": "audio/ru/busy.mp3"
    },
-   "pos": "adj"
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "cabbage",
    "section": "food",
-   "order": 17,
+   "order": 19,
    "image": "images/cabbage.webp",
    "text": {
     "ru": "капуста"
@@ -1328,7 +2125,8 @@
    "audio": {
     "ru": "audio/ru/cabbage.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "cactus",
@@ -1341,12 +2139,13 @@
    "audio": {
     "ru": "audio/ru/cactus.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "cake_slice",
    "section": "food",
-   "order": 18,
+   "order": 20,
    "image": "images/cake_slice.webp",
    "text": {
     "ru": "кусочек торта"
@@ -1354,12 +2153,13 @@
    "audio": {
     "ru": "audio/ru/cake_slice.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "camel",
    "section": "animals",
-   "order": 7,
+   "order": 8,
    "image": "images/camel.webp",
    "text": {
     "ru": "верблюд"
@@ -1367,12 +2167,13 @@
    "audio": {
     "ru": "audio/ru/camel.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "camera",
    "section": "household",
-   "order": 8,
+   "order": 12,
    "image": "images/camera.webp",
    "text": {
     "ru": "камера"
@@ -1380,12 +2181,27 @@
    "audio": {
     "ru": "audio/ru/camera.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "candy_cane",
+   "section": "food",
+   "order": 21,
+   "image": "images/candy_cane.webp",
+   "text": {
+    "ru": "леденец"
+   },
+   "audio": {
+    "ru": "audio/ru/candy_cane.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "carrot_soup",
    "section": "food",
-   "order": 19,
+   "order": 22,
    "image": "images/carrot_soup.webp",
    "text": {
     "ru": "морковный суп"
@@ -1393,12 +2209,13 @@
    "audio": {
     "ru": "audio/ru/carrot_soup.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "cashew",
    "section": "food",
-   "order": 20,
+   "order": 23,
    "image": "images/cashew.webp",
    "text": {
     "ru": "кешью"
@@ -1406,12 +2223,13 @@
    "audio": {
     "ru": "audio/ru/cashew.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "chandelier",
    "section": "household",
-   "order": 9,
+   "order": 13,
    "image": "images/chandelier.webp",
    "text": {
     "ru": "люстра"
@@ -1419,12 +2237,13 @@
    "audio": {
     "ru": "audio/ru/chandelier.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "charge",
    "section": "household",
-   "order": 10,
+   "order": 14,
    "image": "images/charge.webp",
    "text": {
     "ru": "заряд"
@@ -1432,12 +2251,13 @@
    "audio": {
     "ru": "audio/ru/charge.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "cheese",
    "section": "food",
-   "order": 21,
+   "order": 24,
    "image": "images/cheese.webp",
    "text": {
     "ru": "сыр"
@@ -1445,12 +2265,13 @@
    "audio": {
     "ru": "audio/ru/cheese.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "cheetah",
    "section": "animals",
-   "order": 8,
+   "order": 9,
    "image": "images/cheetah.webp",
    "text": {
     "ru": "гепард"
@@ -1458,12 +2279,13 @@
    "audio": {
     "ru": "audio/ru/cheetah.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "cherry",
    "section": "food",
-   "order": 22,
+   "order": 25,
    "image": "images/cherry.webp",
    "text": {
     "ru": "вишня"
@@ -1471,12 +2293,13 @@
    "audio": {
     "ru": "audio/ru/cherry.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "chicken_soup",
    "section": "food",
-   "order": 23,
+   "order": 26,
    "image": "images/chicken_soup.webp",
    "text": {
     "ru": "куриный суп"
@@ -1484,12 +2307,13 @@
    "audio": {
     "ru": "audio/ru/chicken_soup.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "chocolate",
    "section": "food",
-   "order": 24,
+   "order": 27,
    "image": "images/chocolate.webp",
    "text": {
     "ru": "шоколад"
@@ -1497,12 +2321,13 @@
    "audio": {
     "ru": "audio/ru/chocolate.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "chocolate_chip_biscuit",
    "section": "food",
-   "order": 25,
+   "order": 28,
    "image": "images/chocolate_chip_biscuit.webp",
    "text": {
     "ru": "шоколадное печенье"
@@ -1510,12 +2335,13 @@
    "audio": {
     "ru": "audio/ru/chocolate_chip_biscuit.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "church",
    "section": "places",
-   "order": 2,
+   "order": 3,
    "image": "images/church.webp",
    "text": {
     "ru": "церковь"
@@ -1523,12 +2349,13 @@
    "audio": {
     "ru": "audio/ru/church.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "class_room",
    "section": "places",
-   "order": 3,
+   "order": 4,
    "image": "images/class_room.webp",
    "text": {
     "ru": "класс"
@@ -1536,7 +2363,36 @@
    "audio": {
     "ru": "audio/ru/class_room.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "clean_adj",
+   "section": "descriptors",
+   "order": 10,
+   "image": "images/clean_adj.webp",
+   "text": {
+    "ru": "чистый"
+   },
+   "audio": {
+    "ru": "audio/ru/clean_adj.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
+  },
+  {
+   "id": "clothes_neat",
+   "section": "descriptors",
+   "order": 11,
+   "image": "images/clothes_neat.webp",
+   "text": {
+    "ru": "аккуратная одежда"
+   },
+   "audio": {
+    "ru": "audio/ru/clothes_neat.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "cloudy",
@@ -1549,12 +2405,13 @@
    "audio": {
     "ru": "audio/ru/cloudy.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "coffee",
    "section": "food",
-   "order": 26,
+   "order": 29,
    "image": "images/coffee.webp",
    "text": {
     "ru": "кофе"
@@ -1562,12 +2419,13 @@
    "audio": {
     "ru": "audio/ru/coffee.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "coffee_table",
    "section": "furniture",
-   "order": 4,
+   "order": 6,
    "image": "images/coffee_table.webp",
    "text": {
     "ru": "кофейный столик"
@@ -1575,12 +2433,27 @@
    "audio": {
     "ru": "audio/ru/coffee_table.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "colour",
+   "section": "colors",
+   "order": 5,
+   "image": "images/colour.webp",
+   "text": {
+    "ru": "цвет"
+   },
+   "audio": {
+    "ru": "audio/ru/colour.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "colouring_book",
    "section": "toys_games",
-   "order": 6,
+   "order": 7,
    "image": "images/colouring_book.webp",
    "text": {
     "ru": "книжка-раскраска"
@@ -1588,12 +2461,13 @@
    "audio": {
     "ru": "audio/ru/colouring_book.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "corner_cabinet",
    "section": "furniture",
-   "order": 5,
+   "order": 7,
    "image": "images/corner_cabinet.webp",
    "text": {
     "ru": "угловой шкаф"
@@ -1601,12 +2475,27 @@
    "audio": {
     "ru": "audio/ru/corner_cabinet.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "correct",
+   "section": "descriptors",
+   "order": 12,
+   "image": "images/correct.webp",
+   "text": {
+    "ru": "верно"
+   },
+   "audio": {
+    "ru": "audio/ru/correct.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "cranberry_juice",
    "section": "food",
-   "order": 27,
+   "order": 30,
    "image": "images/cranberry_juice.webp",
    "text": {
     "ru": "клюквенный сок"
@@ -1614,7 +2503,8 @@
    "audio": {
     "ru": "audio/ru/cranberry_juice.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "crayon",
@@ -1627,12 +2517,13 @@
    "audio": {
     "ru": "audio/ru/crayon.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "cream",
    "section": "food",
-   "order": 28,
+   "order": 31,
    "image": "images/cream.webp",
    "text": {
     "ru": "крем"
@@ -1640,12 +2531,27 @@
    "audio": {
     "ru": "audio/ru/cream.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "cream_artcol",
+   "section": "colors",
+   "order": 6,
+   "image": "images/cream_artcol.webp",
+   "text": {
+    "ru": "кремовый"
+   },
+   "audio": {
+    "ru": "audio/ru/cream_artcol.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "creme_fraiche",
    "section": "food",
-   "order": 29,
+   "order": 32,
    "image": "images/creme_fraiche.webp",
    "text": {
     "ru": "сметана"
@@ -1653,12 +2559,13 @@
    "audio": {
     "ru": "audio/ru/creme_fraiche.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "crocodile",
    "section": "animals",
-   "order": 9,
+   "order": 10,
    "image": "images/crocodile.webp",
    "text": {
     "ru": "крокодил"
@@ -1666,12 +2573,13 @@
    "audio": {
     "ru": "audio/ru/crocodile.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "croissant",
    "section": "food",
-   "order": 30,
+   "order": 33,
    "image": "images/croissant.webp",
    "text": {
     "ru": "круассан"
@@ -1679,12 +2587,13 @@
    "audio": {
     "ru": "audio/ru/croissant.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "crown",
    "section": "clothes",
-   "order": 10,
+   "order": 12,
    "image": "images/crown.webp",
    "text": {
     "ru": "корона"
@@ -1692,12 +2601,13 @@
    "audio": {
     "ru": "audio/ru/crown.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "cucumber",
    "section": "food",
-   "order": 31,
+   "order": 34,
    "image": "images/cucumber.webp",
    "text": {
     "ru": "огурец"
@@ -1705,12 +2615,13 @@
    "audio": {
     "ru": "audio/ru/cucumber.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "curly",
    "section": "numbers_shapes",
-   "order": 1,
+   "order": 3,
    "image": "images/curly.webp",
    "text": {
     "ru": "вьющийся"
@@ -1718,12 +2629,13 @@
    "audio": {
     "ru": "audio/ru/curly.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "curry",
    "section": "food",
-   "order": 32,
+   "order": 35,
    "image": "images/curry.webp",
    "text": {
     "ru": "карри"
@@ -1731,12 +2643,13 @@
    "audio": {
     "ru": "audio/ru/curry.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "curtains",
    "section": "household",
-   "order": 11,
+   "order": 15,
    "image": "images/curtains.webp",
    "text": {
     "ru": "шторы"
@@ -1744,12 +2657,27 @@
    "audio": {
     "ru": "audio/ru/curtains.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "dark_grey",
+   "section": "colors",
+   "order": 7,
+   "image": "images/dark_grey.webp",
+   "text": {
+    "ru": "темно-серый"
+   },
+   "audio": {
+    "ru": "audio/ru/dark_grey.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "dark_mauve",
    "section": "colors",
-   "order": 2,
+   "order": 8,
    "image": "images/dark_mauve.webp",
    "text": {
     "ru": "тёмно-лиловый"
@@ -1757,12 +2685,13 @@
    "audio": {
     "ru": "audio/ru/dark_mauve.mp3"
    },
-   "pos": "adj"
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "darts",
    "section": "toys_games",
-   "order": 7,
+   "order": 8,
    "image": "images/darts.webp",
    "text": {
     "ru": "дартс"
@@ -1770,7 +2699,8 @@
    "audio": {
     "ru": "audio/ru/darts.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "daughter",
@@ -1783,12 +2713,13 @@
    "audio": {
     "ru": "audio/ru/daughter.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "deer",
    "section": "animals",
-   "order": 10,
+   "order": 11,
    "image": "images/deer.webp",
    "text": {
     "ru": "олень"
@@ -1796,7 +2727,8 @@
    "audio": {
     "ru": "audio/ru/deer.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "delivery_person",
@@ -1809,7 +2741,8 @@
    "audio": {
     "ru": "audio/ru/delivery_person.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "dentist",
@@ -1822,12 +2755,13 @@
    "audio": {
     "ru": "audio/ru/dentist.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "dessert",
    "section": "food",
-   "order": 33,
+   "order": 36,
    "image": "images/dessert.webp",
    "text": {
     "ru": "десерт"
@@ -1835,12 +2769,13 @@
    "audio": {
     "ru": "audio/ru/dessert.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "dining_table",
    "section": "furniture",
-   "order": 6,
+   "order": 8,
    "image": "images/dining_table.webp",
    "text": {
     "ru": "обеденный стол"
@@ -1848,12 +2783,13 @@
    "audio": {
     "ru": "audio/ru/dining_table.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "dinosaur",
    "section": "toys_games",
-   "order": 8,
+   "order": 9,
    "image": "images/dinosaur.webp",
    "text": {
     "ru": "динозавр"
@@ -1861,12 +2797,55 @@
    "audio": {
     "ru": "audio/ru/dinosaur.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "dirty",
+   "section": "descriptors",
+   "order": 13,
+   "image": "images/dirty.webp",
+   "text": {
+    "ru": "грязный"
+   },
+   "audio": {
+    "ru": "audio/ru/dirty.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
+  },
+  {
+   "id": "dish",
+   "section": "dishes",
+   "order": 5,
+   "image": "images/dish.webp",
+   "text": {
+    "ru": "блюдо"
+   },
+   "audio": {
+    "ru": "audio/ru/dish.mp3"
+   },
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "dishes",
+   "section": "dishes",
+   "order": 6,
+   "image": "images/dishes.webp",
+   "text": {
+    "ru": "посуда"
+   },
+   "audio": {
+    "ru": "audio/ru/dishes.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "dolphin",
    "section": "animals",
-   "order": 11,
+   "order": 12,
    "image": "images/dolphin.webp",
    "text": {
     "ru": "дельфин"
@@ -1874,12 +2853,13 @@
    "audio": {
     "ru": "audio/ru/dolphin.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "donkey",
    "section": "animals",
-   "order": 12,
+   "order": 13,
    "image": "images/donkey.webp",
    "text": {
     "ru": "осел"
@@ -1887,12 +2867,13 @@
    "audio": {
     "ru": "audio/ru/donkey.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "dove",
    "section": "animals",
-   "order": 13,
+   "order": 14,
    "image": "images/dove.webp",
    "text": {
     "ru": "голубь"
@@ -1900,12 +2881,13 @@
    "audio": {
     "ru": "audio/ru/dove.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "dresser",
    "section": "furniture",
-   "order": 7,
+   "order": 9,
    "image": "images/dresser.webp",
    "text": {
     "ru": "комод"
@@ -1913,12 +2895,13 @@
    "audio": {
     "ru": "audio/ru/dresser.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "dressing_gown",
    "section": "clothes",
-   "order": 11,
+   "order": 13,
    "image": "images/dressing_gown.webp",
    "text": {
     "ru": "халат"
@@ -1926,7 +2909,22 @@
    "audio": {
     "ru": "audio/ru/dressing_gown.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "dry",
+   "section": "descriptors",
+   "order": 14,
+   "image": "images/dry.webp",
+   "text": {
+    "ru": "сухой"
+   },
+   "audio": {
+    "ru": "audio/ru/dry.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "elbow",
@@ -1939,12 +2937,13 @@
    "audio": {
     "ru": "audio/ru/elbow.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "electric_razor",
    "section": "household",
-   "order": 12,
+   "order": 16,
    "image": "images/electric_razor.webp",
    "text": {
     "ru": "электробритва"
@@ -1952,12 +2951,27 @@
    "audio": {
     "ru": "audio/ru/electric_razor.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "empty",
+   "section": "descriptors",
+   "order": 15,
+   "image": "images/empty.webp",
+   "text": {
+    "ru": "пустой"
+   },
+   "audio": {
+    "ru": "audio/ru/empty.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "escalator",
    "section": "places",
-   "order": 4,
+   "order": 5,
    "image": "images/escalator.webp",
    "text": {
     "ru": "эскалатор"
@@ -1965,7 +2979,8 @@
    "audio": {
     "ru": "audio/ru/escalator.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "eyebrow",
@@ -1978,7 +2993,8 @@
    "audio": {
     "ru": "audio/ru/eyebrow.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "eyelash",
@@ -1991,7 +3007,8 @@
    "audio": {
     "ru": "audio/ru/eyelash.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "eyes",
@@ -2004,12 +3021,13 @@
    "audio": {
     "ru": "audio/ru/eyes.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "fairy",
    "section": "toys_games",
-   "order": 9,
+   "order": 10,
    "image": "images/fairy.webp",
    "text": {
     "ru": "фея"
@@ -2017,7 +3035,8 @@
    "audio": {
     "ru": "audio/ru/fairy.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "family",
@@ -2030,12 +3049,41 @@
    "audio": {
     "ru": "audio/ru/family.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "fancy",
+   "section": "descriptors",
+   "order": 16,
+   "image": "images/fancy.webp",
+   "text": {
+    "ru": "модный"
+   },
+   "audio": {
+    "ru": "audio/ru/fancy.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
+  },
+  {
+   "id": "fat",
+   "section": "descriptors",
+   "order": 17,
+   "image": "images/fat.webp",
+   "text": {
+    "ru": "толстый"
+   },
+   "audio": {
+    "ru": "audio/ru/fat.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "fax_machine",
    "section": "household",
-   "order": 13,
+   "order": 17,
    "image": "images/fax_machine.webp",
    "text": {
     "ru": "факс"
@@ -2043,7 +3091,22 @@
    "audio": {
     "ru": "audio/ru/fax_machine.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "female_side",
+   "section": "feelings",
+   "order": 9,
+   "image": "images/female_side.webp",
+   "text": {
+    "ru": "женская сторона"
+   },
+   "audio": {
+    "ru": "audio/ru/female_side.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "ferry",
@@ -2056,12 +3119,27 @@
    "audio": {
     "ru": "audio/ru/ferry.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "fire",
+   "section": "descriptors",
+   "order": 18,
+   "image": "images/fire.webp",
+   "text": {
+    "ru": "огонь"
+   },
+   "audio": {
+    "ru": "audio/ru/fire.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "fireplace",
    "section": "places",
-   "order": 5,
+   "order": 6,
    "image": "images/fireplace.webp",
    "text": {
     "ru": "камин"
@@ -2069,12 +3147,27 @@
    "audio": {
     "ru": "audio/ru/fireplace.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "flame",
+   "section": "descriptors",
+   "order": 19,
+   "image": "images/flame.webp",
+   "text": {
+    "ru": "пламя"
+   },
+   "audio": {
+    "ru": "audio/ru/flame.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "flute",
    "section": "toys_games",
-   "order": 10,
+   "order": 11,
    "image": "images/flute.webp",
    "text": {
     "ru": "флейта"
@@ -2082,12 +3175,13 @@
    "audio": {
     "ru": "audio/ru/flute.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "fly",
    "section": "animals",
-   "order": 14,
+   "order": 15,
    "image": "images/fly.webp",
    "text": {
     "ru": "муха"
@@ -2095,12 +3189,13 @@
    "audio": {
     "ru": "audio/ru/fly.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "food",
    "section": "food",
-   "order": 34,
+   "order": 37,
    "image": "images/food.webp",
    "text": {
     "ru": "еда"
@@ -2108,12 +3203,13 @@
    "audio": {
     "ru": "audio/ru/food.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "forwards",
    "section": "prepositions_quantity",
-   "order": 1,
+   "order": 2,
    "image": "images/forwards.webp",
    "text": {
     "ru": "вперед"
@@ -2121,12 +3217,27 @@
    "audio": {
     "ru": "audio/ru/forwards.mp3"
    },
-   "pos": "adv"
+   "pos": "adv",
+   "prio": 2
+  },
+  {
+   "id": "full",
+   "section": "descriptors",
+   "order": 20,
+   "image": "images/full.webp",
+   "text": {
+    "ru": "полный"
+   },
+   "audio": {
+    "ru": "audio/ru/full.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "furniture",
    "section": "furniture",
-   "order": 8,
+   "order": 10,
    "image": "images/furniture.webp",
    "text": {
     "ru": "мебель"
@@ -2134,7 +3245,8 @@
    "audio": {
     "ru": "audio/ru/furniture.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "gardener",
@@ -2147,12 +3259,13 @@
    "audio": {
     "ru": "audio/ru/gardener.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "ghost",
    "section": "toys_games",
-   "order": 11,
+   "order": 12,
    "image": "images/ghost.webp",
    "text": {
     "ru": "призрак"
@@ -2160,12 +3273,13 @@
    "audio": {
     "ru": "audio/ru/ghost.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "giraffe",
    "section": "animals",
-   "order": 15,
+   "order": 16,
    "image": "images/giraffe.webp",
    "text": {
     "ru": "жираф"
@@ -2173,7 +3287,8 @@
    "audio": {
     "ru": "audio/ru/giraffe.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "golf",
@@ -2186,12 +3301,13 @@
    "audio": {
     "ru": "audio/ru/golf.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "gorilla",
    "section": "animals",
-   "order": 16,
+   "order": 17,
    "image": "images/gorilla.webp",
    "text": {
     "ru": "горилла"
@@ -2199,12 +3315,13 @@
    "audio": {
     "ru": "audio/ru/gorilla.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "grapes",
    "section": "food",
-   "order": 35,
+   "order": 38,
    "image": "images/grapes.webp",
    "text": {
     "ru": "виноград"
@@ -2212,12 +3329,13 @@
    "audio": {
     "ru": "audio/ru/grapes.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "grater",
    "section": "dishes",
-   "order": 5,
+   "order": 7,
    "image": "images/grater.webp",
    "text": {
     "ru": "тёрка"
@@ -2225,12 +3343,13 @@
    "audio": {
     "ru": "audio/ru/grater.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "guitar",
    "section": "toys_games",
-   "order": 12,
+   "order": 13,
    "image": "images/guitar.webp",
    "text": {
     "ru": "гитара"
@@ -2238,7 +3357,8 @@
    "audio": {
     "ru": "audio/ru/guitar.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "gum",
@@ -2251,12 +3371,13 @@
    "audio": {
     "ru": "audio/ru/gum.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "haircut",
    "section": "actions",
-   "order": 9,
+   "order": 10,
    "image": "images/haircut.webp",
    "text": {
     "ru": "стрижка"
@@ -2264,12 +3385,13 @@
    "audio": {
     "ru": "audio/ru/haircut.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "hamburger",
    "section": "food",
-   "order": 36,
+   "order": 39,
    "image": "images/hamburger.webp",
    "text": {
     "ru": "гамбургер"
@@ -2277,12 +3399,13 @@
    "audio": {
     "ru": "audio/ru/hamburger.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "hamster",
    "section": "animals",
-   "order": 17,
+   "order": 18,
    "image": "images/hamster.webp",
    "text": {
     "ru": "хомяк"
@@ -2290,7 +3413,8 @@
    "audio": {
     "ru": "audio/ru/hamster.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "handle_bars",
@@ -2303,7 +3427,8 @@
    "audio": {
     "ru": "audio/ru/handle_bars.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "hangar",
@@ -2316,12 +3441,13 @@
    "audio": {
     "ru": "audio/ru/hangar.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "hard_hat",
    "section": "clothes",
-   "order": 12,
+   "order": 14,
    "image": "images/hard_hat.webp",
    "text": {
     "ru": "каска"
@@ -2329,12 +3455,13 @@
    "audio": {
     "ru": "audio/ru/hard_hat.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "headphones",
    "section": "household",
-   "order": 14,
+   "order": 18,
    "image": "images/headphones.webp",
    "text": {
     "ru": "наушники"
@@ -2342,12 +3469,41 @@
    "audio": {
     "ru": "audio/ru/headphones.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "heavy",
+   "section": "descriptors",
+   "order": 21,
+   "image": "images/heavy.webp",
+   "text": {
+    "ru": "тяжёлый"
+   },
+   "audio": {
+    "ru": "audio/ru/heavy.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
+  },
+  {
+   "id": "heel_of_shoe",
+   "section": "clothes",
+   "order": 15,
+   "image": "images/heel_of_shoe.webp",
+   "text": {
+    "ru": "каблук"
+   },
+   "audio": {
+    "ru": "audio/ru/heel_of_shoe.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "helmet",
    "section": "clothes",
-   "order": 13,
+   "order": 16,
    "image": "images/helmet.webp",
    "text": {
     "ru": "шлем"
@@ -2355,12 +3511,13 @@
    "audio": {
     "ru": "audio/ru/helmet.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "hexagon",
    "section": "numbers_shapes",
-   "order": 2,
+   "order": 4,
    "image": "images/hexagon.webp",
    "text": {
     "ru": "шестиугольник"
@@ -2368,7 +3525,8 @@
    "audio": {
     "ru": "audio/ru/hexagon.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "hip",
@@ -2381,12 +3539,13 @@
    "audio": {
     "ru": "audio/ru/hip.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "hippopotamus",
    "section": "animals",
-   "order": 18,
+   "order": 19,
    "image": "images/hippopotamus.webp",
    "text": {
     "ru": "бегемот"
@@ -2394,7 +3553,8 @@
    "audio": {
     "ru": "audio/ru/hippopotamus.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "hot_air_balloon",
@@ -2407,12 +3567,13 @@
    "audio": {
     "ru": "audio/ru/hot_air_balloon.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "hot_dog",
    "section": "food",
-   "order": 37,
+   "order": 40,
    "image": "images/hot_dog.webp",
    "text": {
     "ru": "хотдог"
@@ -2420,12 +3581,13 @@
    "audio": {
     "ru": "audio/ru/hot_dog.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "how_many",
    "section": "prepositions_quantity",
-   "order": 2,
+   "order": 3,
    "image": "images/how_many.webp",
    "text": {
     "ru": "сколько"
@@ -2433,12 +3595,13 @@
    "audio": {
     "ru": "audio/ru/how_many.mp3"
    },
-   "pos": "adv"
+   "pos": "adv",
+   "prio": 2
   },
   {
    "id": "in_front",
    "section": "prepositions_quantity",
-   "order": 3,
+   "order": 4,
    "image": "images/in_front.webp",
    "text": {
     "ru": "спереди"
@@ -2446,7 +3609,8 @@
    "audio": {
     "ru": "audio/ru/in_front.mp3"
    },
-   "pos": "adv"
+   "pos": "adv",
+   "prio": 2
   },
   {
    "id": "inhaler",
@@ -2459,7 +3623,8 @@
    "audio": {
     "ru": "audio/ru/inhaler.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "jeep",
@@ -2472,12 +3637,13 @@
    "audio": {
     "ru": "audio/ru/jeep.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "jelly",
    "section": "food",
-   "order": 38,
+   "order": 41,
    "image": "images/jelly.webp",
    "text": {
     "ru": "желе"
@@ -2485,7 +3651,22 @@
    "audio": {
     "ru": "audio/ru/jelly.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "jelly_beans",
+   "section": "food",
+   "order": 42,
+   "image": "images/jelly_beans.webp",
+   "text": {
+    "ru": "мармеладки"
+   },
+   "audio": {
+    "ru": "audio/ru/jelly_beans.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "judo",
@@ -2498,12 +3679,13 @@
    "audio": {
     "ru": "audio/ru/judo.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "judo_belt",
    "section": "clothes",
-   "order": 14,
+   "order": 17,
    "image": "images/judo_belt.webp",
    "text": {
     "ru": "пояс дзюдо"
@@ -2511,12 +3693,13 @@
    "audio": {
     "ru": "audio/ru/judo_belt.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "jumper",
    "section": "clothes",
-   "order": 15,
+   "order": 18,
    "image": "images/jumper.webp",
    "text": {
     "ru": "джемпер"
@@ -2524,12 +3707,13 @@
    "audio": {
     "ru": "audio/ru/jumper.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "kangaroo",
    "section": "animals",
-   "order": 19,
+   "order": 20,
    "image": "images/kangaroo.webp",
    "text": {
     "ru": "кенгуру"
@@ -2537,12 +3721,13 @@
    "audio": {
     "ru": "audio/ru/kangaroo.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "kebab",
    "section": "food",
-   "order": 39,
+   "order": 43,
    "image": "images/kebab.webp",
    "text": {
     "ru": "кебаб"
@@ -2550,12 +3735,13 @@
    "audio": {
     "ru": "audio/ru/kebab.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "kiwi",
    "section": "food",
-   "order": 40,
+   "order": 44,
    "image": "images/kiwi.webp",
    "text": {
     "ru": "киви"
@@ -2563,12 +3749,13 @@
    "audio": {
     "ru": "audio/ru/kiwi.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "koala",
    "section": "animals",
-   "order": 20,
+   "order": 21,
    "image": "images/koala.webp",
    "text": {
     "ru": "коала"
@@ -2576,7 +3763,8 @@
    "audio": {
     "ru": "audio/ru/koala.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "left_hand",
@@ -2589,12 +3777,27 @@
    "audio": {
     "ru": "audio/ru/left_hand.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "leg_warmers",
+   "section": "clothes",
+   "order": 19,
+   "image": "images/leg_warmers.webp",
+   "text": {
+    "ru": "гетры"
+   },
+   "audio": {
+    "ru": "audio/ru/leg_warmers.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "lemonade",
    "section": "food",
-   "order": 41,
+   "order": 45,
    "image": "images/lemonade.webp",
    "text": {
     "ru": "лимонад"
@@ -2602,12 +3805,13 @@
    "audio": {
     "ru": "audio/ru/lemonade.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "lettuce",
    "section": "food",
-   "order": 42,
+   "order": 46,
    "image": "images/lettuce.webp",
    "text": {
     "ru": "салат"
@@ -2615,12 +3819,27 @@
    "audio": {
     "ru": "audio/ru/lettuce.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "lid",
+   "section": "dishes",
+   "order": 8,
+   "image": "images/lid.webp",
+   "text": {
+    "ru": "крышка"
+   },
+   "audio": {
+    "ru": "audio/ru/lid.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "lift",
    "section": "places",
-   "order": 6,
+   "order": 7,
    "image": "images/lift.webp",
    "text": {
     "ru": "лифт"
@@ -2628,12 +3847,27 @@
    "audio": {
     "ru": "audio/ru/lift.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "lucky",
+   "section": "descriptors",
+   "order": 22,
+   "image": "images/lucky.webp",
+   "text": {
+    "ru": "везучий"
+   },
+   "audio": {
+    "ru": "audio/ru/lucky.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "make_up",
    "section": "household",
-   "order": 15,
+   "order": 19,
    "image": "images/make_up.webp",
    "text": {
     "ru": "макияж"
@@ -2641,7 +3875,22 @@
    "audio": {
     "ru": "audio/ru/make_up.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "mango",
+   "section": "food",
+   "order": 47,
+   "image": "images/mango.webp",
+   "text": {
+    "ru": "манго"
+   },
+   "audio": {
+    "ru": "audio/ru/mango.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "mars",
@@ -2654,12 +3903,13 @@
    "audio": {
     "ru": "audio/ru/mars.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "mash_potato",
    "section": "food",
-   "order": 43,
+   "order": 48,
    "image": "images/mash_potato.webp",
    "text": {
     "ru": "картофельное пюре"
@@ -2667,12 +3917,13 @@
    "audio": {
     "ru": "audio/ru/mash_potato.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "mauve",
    "section": "colors",
-   "order": 3,
+   "order": 9,
    "image": "images/mauve.webp",
    "text": {
     "ru": "розовато-лиловый"
@@ -2680,12 +3931,13 @@
    "audio": {
     "ru": "audio/ru/mauve.mp3"
    },
-   "pos": "adj"
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "mayonnaise",
    "section": "food",
-   "order": 44,
+   "order": 49,
    "image": "images/mayonnaise.webp",
    "text": {
     "ru": "майонез"
@@ -2693,12 +3945,13 @@
    "audio": {
     "ru": "audio/ru/mayonnaise.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "meat",
    "section": "food",
-   "order": 45,
+   "order": 50,
    "image": "images/meat.webp",
    "text": {
     "ru": "мясо"
@@ -2706,12 +3959,13 @@
    "audio": {
     "ru": "audio/ru/meat.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "melon",
    "section": "food",
-   "order": 46,
+   "order": 51,
    "image": "images/melon.webp",
    "text": {
     "ru": "дыня"
@@ -2719,12 +3973,27 @@
    "audio": {
     "ru": "audio/ru/melon.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "mend",
+   "section": "descriptors",
+   "order": 23,
+   "image": "images/mend.webp",
+   "text": {
+    "ru": "чинить"
+   },
+   "audio": {
+    "ru": "audio/ru/mend.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "menu",
    "section": "food",
-   "order": 47,
+   "order": 52,
    "image": "images/menu.webp",
    "text": {
     "ru": "меню"
@@ -2732,12 +4001,13 @@
    "audio": {
     "ru": "audio/ru/menu.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "meringues",
    "section": "food",
-   "order": 48,
+   "order": 53,
    "image": "images/meringues.webp",
    "text": {
     "ru": "безе"
@@ -2745,7 +4015,8 @@
    "audio": {
     "ru": "audio/ru/meringues.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "merry_go_round",
@@ -2758,12 +4029,13 @@
    "audio": {
     "ru": "audio/ru/merry_go_round.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "minced_meat",
    "section": "food",
-   "order": 49,
+   "order": 54,
    "image": "images/minced_meat.webp",
    "text": {
     "ru": "фарш"
@@ -2771,7 +4043,8 @@
    "audio": {
     "ru": "audio/ru/minced_meat.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "mini_bus",
@@ -2784,12 +4057,13 @@
    "audio": {
     "ru": "audio/ru/mini_bus.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "mixer",
    "section": "dishes",
-   "order": 6,
+   "order": 9,
    "image": "images/mixer.webp",
    "text": {
     "ru": "миксер"
@@ -2797,12 +4071,13 @@
    "audio": {
     "ru": "audio/ru/mixer.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "monster",
    "section": "toys_games",
-   "order": 13,
+   "order": 14,
    "image": "images/monster.webp",
    "text": {
     "ru": "монстр"
@@ -2810,12 +4085,13 @@
    "audio": {
     "ru": "audio/ru/monster.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "mop",
    "section": "household",
-   "order": 16,
+   "order": 20,
    "image": "images/mop.webp",
    "text": {
     "ru": "швабра"
@@ -2823,12 +4099,13 @@
    "audio": {
     "ru": "audio/ru/mop.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "moth",
    "section": "animals",
-   "order": 21,
+   "order": 22,
    "image": "images/moth.webp",
    "text": {
     "ru": "мотылек"
@@ -2836,7 +4113,8 @@
    "audio": {
     "ru": "audio/ru/moth.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "muscles",
@@ -2849,12 +4127,13 @@
    "audio": {
     "ru": "audio/ru/muscles.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "mushroom_soup",
    "section": "food",
-   "order": 50,
+   "order": 55,
    "image": "images/mushroom_soup.webp",
    "text": {
     "ru": "грибной суп"
@@ -2862,12 +4141,41 @@
    "audio": {
     "ru": "audio/ru/mushroom_soup.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "neutral_face",
+   "section": "feelings",
+   "order": 10,
+   "image": "images/neutral_face.webp",
+   "text": {
+    "ru": "нейтральное лицо"
+   },
+   "audio": {
+    "ru": "audio/ru/neutral_face.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
+  },
+  {
+   "id": "new",
+   "section": "descriptors",
+   "order": 24,
+   "image": "images/new.webp",
+   "text": {
+    "ru": "новый"
+   },
+   "audio": {
+    "ru": "audio/ru/new.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "noisy",
    "section": "descriptors",
-   "order": 2,
+   "order": 25,
    "image": "images/noisy.webp",
    "text": {
     "ru": "шумно"
@@ -2875,7 +4183,8 @@
    "audio": {
     "ru": "audio/ru/noisy.mp3"
    },
-   "pos": "adj"
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "notebook",
@@ -2888,12 +4197,13 @@
    "audio": {
     "ru": "audio/ru/notebook.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "nuts",
    "section": "food",
-   "order": 51,
+   "order": 56,
    "image": "images/nuts.webp",
    "text": {
     "ru": "орехи"
@@ -2901,12 +4211,13 @@
    "audio": {
     "ru": "audio/ru/nuts.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "ointment",
    "section": "household",
-   "order": 17,
+   "order": 21,
    "image": "images/ointment.webp",
    "text": {
     "ru": "мазь"
@@ -2914,12 +4225,27 @@
    "audio": {
     "ru": "audio/ru/ointment.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "old",
+   "section": "descriptors",
+   "order": 26,
+   "image": "images/old.webp",
+   "text": {
+    "ru": "старый"
+   },
+   "audio": {
+    "ru": "audio/ru/old.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "onion",
    "section": "food",
-   "order": 52,
+   "order": 57,
    "image": "images/onion.webp",
    "text": {
     "ru": "лук"
@@ -2927,12 +4253,13 @@
    "audio": {
     "ru": "audio/ru/onion.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "onion_soup",
    "section": "food",
-   "order": 53,
+   "order": 58,
    "image": "images/onion_soup.webp",
    "text": {
     "ru": "луковый суп"
@@ -2940,7 +4267,8 @@
    "audio": {
     "ru": "audio/ru/onion_soup.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "operation",
@@ -2953,12 +4281,13 @@
    "audio": {
     "ru": "audio/ru/operation.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "orange",
    "section": "food",
-   "order": 54,
+   "order": 59,
    "image": "images/orange.webp",
    "text": {
     "ru": "апельсин"
@@ -2966,12 +4295,13 @@
    "audio": {
     "ru": "audio/ru/orange.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "ostrich",
    "section": "animals",
-   "order": 22,
+   "order": 23,
    "image": "images/ostrich.webp",
    "text": {
     "ru": "страус"
@@ -2979,12 +4309,13 @@
    "audio": {
     "ru": "audio/ru/ostrich.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "owl",
    "section": "animals",
-   "order": 23,
+   "order": 24,
    "image": "images/owl.webp",
    "text": {
     "ru": "сова"
@@ -2992,12 +4323,13 @@
    "audio": {
     "ru": "audio/ru/owl.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "palm_tree",
    "section": "places",
-   "order": 7,
+   "order": 8,
    "image": "images/palm_tree.webp",
    "text": {
     "ru": "пальмовое дерево"
@@ -3005,12 +4337,13 @@
    "audio": {
     "ru": "audio/ru/palm_tree.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "pancakes",
    "section": "food",
-   "order": 55,
+   "order": 60,
    "image": "images/pancakes.webp",
    "text": {
     "ru": "блины"
@@ -3018,12 +4351,13 @@
    "audio": {
     "ru": "audio/ru/pancakes.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "panda",
    "section": "animals",
-   "order": 24,
+   "order": 25,
    "image": "images/panda.webp",
    "text": {
     "ru": "панда"
@@ -3031,12 +4365,13 @@
    "audio": {
     "ru": "audio/ru/panda.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "paper_towel",
    "section": "dishes",
-   "order": 7,
+   "order": 10,
    "image": "images/paper_towel.webp",
    "text": {
     "ru": "бумажное полотенце"
@@ -3044,7 +4379,8 @@
    "audio": {
     "ru": "audio/ru/paper_towel.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "parachute",
@@ -3057,12 +4393,13 @@
    "audio": {
     "ru": "audio/ru/parachute.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "pasta",
    "section": "food",
-   "order": 56,
+   "order": 61,
    "image": "images/pasta.webp",
    "text": {
     "ru": "макароны"
@@ -3070,12 +4407,13 @@
    "audio": {
     "ru": "audio/ru/pasta.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "pea_soup",
    "section": "food",
-   "order": 57,
+   "order": 62,
    "image": "images/pea_soup.webp",
    "text": {
     "ru": "гороховый суп"
@@ -3083,12 +4421,13 @@
    "audio": {
     "ru": "audio/ru/pea_soup.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "peacock",
    "section": "animals",
-   "order": 25,
+   "order": 26,
    "image": "images/peacock.webp",
    "text": {
     "ru": "павлин"
@@ -3096,12 +4435,13 @@
    "audio": {
     "ru": "audio/ru/peacock.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "peanut",
    "section": "food",
-   "order": 58,
+   "order": 63,
    "image": "images/peanut.webp",
    "text": {
     "ru": "арахис"
@@ -3109,12 +4449,13 @@
    "audio": {
     "ru": "audio/ru/peanut.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "pear",
    "section": "food",
-   "order": 59,
+   "order": 64,
    "image": "images/pear.webp",
    "text": {
     "ru": "груша"
@@ -3122,12 +4463,13 @@
    "audio": {
     "ru": "audio/ru/pear.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "pentagon",
    "section": "numbers_shapes",
-   "order": 3,
+   "order": 5,
    "image": "images/pentagon.webp",
    "text": {
     "ru": "пятиугольник"
@@ -3135,12 +4477,13 @@
    "audio": {
     "ru": "audio/ru/pentagon.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "pepper",
    "section": "food",
-   "order": 60,
+   "order": 65,
    "image": "images/pepper.webp",
    "text": {
     "ru": "перец"
@@ -3148,12 +4491,13 @@
    "audio": {
     "ru": "audio/ru/pepper.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "perfume",
    "section": "household",
-   "order": 18,
+   "order": 22,
    "image": "images/perfume.webp",
    "text": {
     "ru": "духи"
@@ -3161,12 +4505,13 @@
    "audio": {
     "ru": "audio/ru/perfume.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "piano",
    "section": "toys_games",
-   "order": 14,
+   "order": 15,
    "image": "images/piano.webp",
    "text": {
     "ru": "пианино"
@@ -3174,12 +4519,13 @@
    "audio": {
     "ru": "audio/ru/piano.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "pie",
    "section": "food",
-   "order": 61,
+   "order": 66,
    "image": "images/pie.webp",
    "text": {
     "ru": "пирог"
@@ -3187,12 +4533,13 @@
    "audio": {
     "ru": "audio/ru/pie.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "pineapple",
    "section": "food",
-   "order": 62,
+   "order": 67,
    "image": "images/pineapple.webp",
    "text": {
     "ru": "ананас"
@@ -3200,12 +4547,13 @@
    "audio": {
     "ru": "audio/ru/pineapple.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "pineapple_juice",
    "section": "food",
-   "order": 63,
+   "order": 68,
    "image": "images/pineapple_juice.webp",
    "text": {
     "ru": "ананасовый сок"
@@ -3213,12 +4561,13 @@
    "audio": {
     "ru": "audio/ru/pineapple_juice.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "pizza",
    "section": "food",
-   "order": 64,
+   "order": 69,
    "image": "images/pizza.webp",
    "text": {
     "ru": "пицца"
@@ -3226,7 +4575,8 @@
    "audio": {
     "ru": "audio/ru/pizza.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "police_car",
@@ -3239,12 +4589,27 @@
    "audio": {
     "ru": "audio/ru/police_car.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "pop_socks",
+   "section": "clothes",
+   "order": 20,
+   "image": "images/pop_socks.webp",
+   "text": {
+    "ru": "чулки"
+   },
+   "audio": {
+    "ru": "audio/ru/pop_socks.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "potato",
    "section": "food",
-   "order": 65,
+   "order": 70,
    "image": "images/potato.webp",
    "text": {
     "ru": "картошка"
@@ -3252,12 +4617,27 @@
    "audio": {
     "ru": "audio/ru/potato.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "pretty",
+   "section": "descriptors",
+   "order": 27,
+   "image": "images/pretty.webp",
+   "text": {
+    "ru": "красивая"
+   },
+   "audio": {
+    "ru": "audio/ru/pretty.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "pretzel",
    "section": "food",
-   "order": 66,
+   "order": 71,
    "image": "images/pretzel.webp",
    "text": {
     "ru": "крендель"
@@ -3265,12 +4645,13 @@
    "audio": {
     "ru": "audio/ru/pretzel.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "puppet",
    "section": "toys_games",
-   "order": 15,
+   "order": 16,
    "image": "images/puppet.webp",
    "text": {
     "ru": "марионетка"
@@ -3278,7 +4659,22 @@
    "audio": {
     "ru": "audio/ru/puppet.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "purse",
+   "section": "clothes",
+   "order": 21,
+   "image": "images/purse.webp",
+   "text": {
+    "ru": "кошелек"
+   },
+   "audio": {
+    "ru": "audio/ru/purse.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "race_athletics",
@@ -3291,12 +4687,13 @@
    "audio": {
     "ru": "audio/ru/race_athletics.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "radish",
    "section": "food",
-   "order": 67,
+   "order": 72,
    "image": "images/radish.webp",
    "text": {
     "ru": "редис"
@@ -3304,7 +4701,8 @@
    "audio": {
     "ru": "audio/ru/radish.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "rainbow",
@@ -3317,7 +4715,8 @@
    "audio": {
     "ru": "audio/ru/rainbow.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "ramp",
@@ -3330,7 +4729,8 @@
    "audio": {
     "ru": "audio/ru/ramp.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "rash",
@@ -3343,12 +4743,13 @@
    "audio": {
     "ru": "audio/ru/rash.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "rat",
    "section": "animals",
-   "order": 26,
+   "order": 27,
    "image": "images/rat.webp",
    "text": {
     "ru": "крыса"
@@ -3356,12 +4757,13 @@
    "audio": {
     "ru": "audio/ru/rat.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "remote_control",
    "section": "household",
-   "order": 19,
+   "order": 23,
    "image": "images/remote_control.webp",
    "text": {
     "ru": "пульт"
@@ -3369,12 +4771,13 @@
    "audio": {
     "ru": "audio/ru/remote_control.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "rhinoceros",
    "section": "animals",
-   "order": 27,
+   "order": 28,
    "image": "images/rhinoceros.webp",
    "text": {
     "ru": "носорог"
@@ -3382,12 +4785,13 @@
    "audio": {
     "ru": "audio/ru/rhinoceros.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "rice",
    "section": "food",
-   "order": 68,
+   "order": 73,
    "image": "images/rice.webp",
    "text": {
     "ru": "рис"
@@ -3395,12 +4799,13 @@
    "audio": {
     "ru": "audio/ru/rice.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "rocking_chair",
    "section": "furniture",
-   "order": 9,
+   "order": 11,
    "image": "images/rocking_chair.webp",
    "text": {
     "ru": "кресло-качалка"
@@ -3408,12 +4813,13 @@
    "audio": {
     "ru": "audio/ru/rocking_chair.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "rolling_pin",
    "section": "dishes",
-   "order": 8,
+   "order": 11,
    "image": "images/rolling_pin.webp",
    "text": {
     "ru": "скалка"
@@ -3421,7 +4827,8 @@
    "audio": {
     "ru": "audio/ru/rolling_pin.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "roots",
@@ -3434,7 +4841,8 @@
    "audio": {
     "ru": "audio/ru/roots.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "rose",
@@ -3447,12 +4855,13 @@
    "audio": {
     "ru": "audio/ru/rose.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "sack",
    "section": "toys_games",
-   "order": 16,
+   "order": 17,
    "image": "images/sack.webp",
    "text": {
     "ru": "мешок"
@@ -3460,12 +4869,13 @@
    "audio": {
     "ru": "audio/ru/sack.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "salt",
    "section": "food",
-   "order": 69,
+   "order": 74,
    "image": "images/salt.webp",
    "text": {
     "ru": "соль"
@@ -3473,12 +4883,27 @@
    "audio": {
     "ru": "audio/ru/salt.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "salty",
+   "section": "food",
+   "order": 75,
+   "image": "images/salty.webp",
+   "text": {
+    "ru": "соленый"
+   },
+   "audio": {
+    "ru": "audio/ru/salty.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "sandwich",
    "section": "food",
-   "order": 70,
+   "order": 76,
    "image": "images/sandwich.webp",
    "text": {
     "ru": "сэндвич"
@@ -3486,12 +4911,13 @@
    "audio": {
     "ru": "audio/ru/sandwich.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "saucer",
    "section": "dishes",
-   "order": 9,
+   "order": 12,
    "image": "images/saucer.webp",
    "text": {
     "ru": "блюдце"
@@ -3499,12 +4925,13 @@
    "audio": {
     "ru": "audio/ru/saucer.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "sausage",
    "section": "food",
-   "order": 71,
+   "order": 77,
    "image": "images/sausage.webp",
    "text": {
     "ru": "колбаса"
@@ -3512,12 +4939,13 @@
    "audio": {
     "ru": "audio/ru/sausage.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "scales",
    "section": "dishes",
-   "order": 10,
+   "order": 13,
    "image": "images/scales.webp",
    "text": {
     "ru": "весы"
@@ -3525,12 +4953,41 @@
    "audio": {
     "ru": "audio/ru/scales.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "scared",
+   "section": "feelings",
+   "order": 11,
+   "image": "images/scared.webp",
+   "text": {
+    "ru": "испуганный"
+   },
+   "audio": {
+    "ru": "audio/ru/scared.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
+  },
+  {
+   "id": "school_bag",
+   "section": "clothes",
+   "order": 22,
+   "image": "images/school_bag.webp",
+   "text": {
+    "ru": "портфель"
+   },
+   "audio": {
+    "ru": "audio/ru/school_bag.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "seagull",
    "section": "animals",
-   "order": 28,
+   "order": 29,
    "image": "images/seagull.webp",
    "text": {
     "ru": "чайка"
@@ -3538,12 +4995,13 @@
    "audio": {
     "ru": "audio/ru/seagull.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "seal",
    "section": "animals",
-   "order": 29,
+   "order": 30,
    "image": "images/seal.webp",
    "text": {
     "ru": "тюлень"
@@ -3551,7 +5009,8 @@
    "audio": {
     "ru": "audio/ru/seal.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "secretary",
@@ -3564,12 +5023,27 @@
    "audio": {
     "ru": "audio/ru/secretary.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "shiny",
+   "section": "descriptors",
+   "order": 28,
+   "image": "images/shiny.webp",
+   "text": {
+    "ru": "блестящий"
+   },
+   "audio": {
+    "ru": "audio/ru/shiny.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "shrimp",
    "section": "food",
-   "order": 72,
+   "order": 78,
    "image": "images/shrimp.webp",
    "text": {
     "ru": "креветка"
@@ -3577,12 +5051,27 @@
    "audio": {
     "ru": "audio/ru/shrimp.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "sick",
+   "section": "feelings",
+   "order": 12,
+   "image": "images/sick.webp",
+   "text": {
+    "ru": "больной"
+   },
+   "audio": {
+    "ru": "audio/ru/sick.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "sieve",
    "section": "dishes",
-   "order": 11,
+   "order": 14,
    "image": "images/sieve.webp",
    "text": {
     "ru": "сито"
@@ -3590,7 +5079,8 @@
    "audio": {
     "ru": "audio/ru/sieve.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "singer",
@@ -3603,12 +5093,13 @@
    "audio": {
     "ru": "audio/ru/singer.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "single_bed",
    "section": "furniture",
-   "order": 10,
+   "order": 12,
    "image": "images/single_bed.webp",
    "text": {
     "ru": "односпальная кровать"
@@ -3616,7 +5107,8 @@
    "audio": {
     "ru": "audio/ru/single_bed.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "skate_park",
@@ -3629,7 +5121,8 @@
    "audio": {
     "ru": "audio/ru/skate_park.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "skateboard",
@@ -3642,7 +5135,8 @@
    "audio": {
     "ru": "audio/ru/skateboard.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "skin",
@@ -3655,7 +5149,8 @@
    "audio": {
     "ru": "audio/ru/skin.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "sleigh",
@@ -3668,12 +5163,13 @@
    "audio": {
     "ru": "audio/ru/sleigh.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "snake",
    "section": "animals",
-   "order": 30,
+   "order": 31,
    "image": "images/snake.webp",
    "text": {
     "ru": "змея"
@@ -3681,7 +5177,8 @@
    "audio": {
     "ru": "audio/ru/snake.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "son",
@@ -3694,12 +5191,13 @@
    "audio": {
     "ru": "audio/ru/son.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "sour",
    "section": "food",
-   "order": 73,
+   "order": 79,
    "image": "images/sour.webp",
    "text": {
     "ru": "кислый"
@@ -3707,12 +5205,13 @@
    "audio": {
     "ru": "audio/ru/sour.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "spaghetti_bolognaise",
    "section": "food",
-   "order": 74,
+   "order": 80,
    "image": "images/spaghetti_bolognaise.webp",
    "text": {
     "ru": "спагетти болоньезе"
@@ -3720,12 +5219,27 @@
    "audio": {
     "ru": "audio/ru/spaghetti_bolognaise.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "spicy",
+   "section": "food",
+   "order": 81,
+   "image": "images/spicy.webp",
+   "text": {
+    "ru": "острый"
+   },
+   "audio": {
+    "ru": "audio/ru/spicy.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "spinach",
    "section": "food",
-   "order": 75,
+   "order": 82,
    "image": "images/spinach.webp",
    "text": {
     "ru": "шпинат"
@@ -3733,12 +5247,13 @@
    "audio": {
     "ru": "audio/ru/spinach.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "steak",
    "section": "food",
-   "order": 76,
+   "order": 83,
    "image": "images/steak.webp",
    "text": {
     "ru": "стейк"
@@ -3746,7 +5261,8 @@
    "audio": {
     "ru": "audio/ru/steak.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "steam_train",
@@ -3759,7 +5275,8 @@
    "audio": {
     "ru": "audio/ru/steam_train.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "step_dad",
@@ -3772,7 +5289,8 @@
    "audio": {
     "ru": "audio/ru/step_dad.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "stick",
@@ -3785,12 +5303,13 @@
    "audio": {
     "ru": "audio/ru/stick.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "stickers",
    "section": "toys_games",
-   "order": 17,
+   "order": 18,
    "image": "images/stickers.webp",
    "text": {
     "ru": "наклейки"
@@ -3798,12 +5317,13 @@
    "audio": {
     "ru": "audio/ru/stickers.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "sticky",
    "section": "descriptors",
-   "order": 3,
+   "order": 29,
    "image": "images/sticky.webp",
    "text": {
     "ru": "липкий"
@@ -3811,7 +5331,8 @@
    "audio": {
     "ru": "audio/ru/sticky.mp3"
    },
-   "pos": "adj"
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "stomach",
@@ -3824,12 +5345,13 @@
    "audio": {
     "ru": "audio/ru/stomach.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "straw",
    "section": "dishes",
-   "order": 12,
+   "order": 15,
    "image": "images/straw.webp",
    "text": {
     "ru": "соломинка"
@@ -3837,12 +5359,13 @@
    "audio": {
     "ru": "audio/ru/straw.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "strawberry",
    "section": "food",
-   "order": 77,
+   "order": 84,
    "image": "images/strawberry.webp",
    "text": {
     "ru": "клубника"
@@ -3850,12 +5373,27 @@
    "audio": {
     "ru": "audio/ru/strawberry.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "stubble",
+   "section": "descriptors",
+   "order": 30,
+   "image": "images/stubble.webp",
+   "text": {
+    "ru": "щетина"
+   },
+   "audio": {
+    "ru": "audio/ru/stubble.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "sunglasses",
    "section": "clothes",
-   "order": 16,
+   "order": 23,
    "image": "images/sunglasses.webp",
    "text": {
     "ru": "солнцезащитные очки"
@@ -3863,12 +5401,27 @@
    "audio": {
     "ru": "audio/ru/sunglasses.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "surprised",
+   "section": "feelings",
+   "order": 13,
+   "image": "images/surprised.webp",
+   "text": {
+    "ru": "удивлённый"
+   },
+   "audio": {
+    "ru": "audio/ru/surprised.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "swan",
    "section": "animals",
-   "order": 31,
+   "order": 32,
    "image": "images/swan.webp",
    "text": {
     "ru": "лебедь"
@@ -3876,12 +5429,13 @@
    "audio": {
     "ru": "audio/ru/swan.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "swimming_trunks",
    "section": "clothes",
-   "order": 17,
+   "order": 24,
    "image": "images/swimming_trunks.webp",
    "text": {
     "ru": "плавки"
@@ -3889,12 +5443,13 @@
    "audio": {
     "ru": "audio/ru/swimming_trunks.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "swiss_roll",
    "section": "food",
-   "order": 78,
+   "order": 85,
    "image": "images/swiss_roll.webp",
    "text": {
     "ru": "рулет"
@@ -3902,12 +5457,13 @@
    "audio": {
     "ru": "audio/ru/swiss_roll.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "tablecloth",
    "section": "food",
-   "order": 79,
+   "order": 86,
    "image": "images/tablecloth.webp",
    "text": {
     "ru": "скатерть"
@@ -3915,7 +5471,8 @@
    "audio": {
     "ru": "audio/ru/tablecloth.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "tablets",
@@ -3928,12 +5485,13 @@
    "audio": {
     "ru": "audio/ru/tablets.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "tap",
    "section": "household",
-   "order": 20,
+   "order": 24,
    "image": "images/tap.webp",
    "text": {
     "ru": "кран"
@@ -3941,12 +5499,27 @@
    "audio": {
     "ru": "audio/ru/tap.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "tattoo",
+   "section": "descriptors",
+   "order": 31,
+   "image": "images/tattoo.webp",
+   "text": {
+    "ru": "тату"
+   },
+   "audio": {
+    "ru": "audio/ru/tattoo.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "tea",
    "section": "food",
-   "order": 80,
+   "order": 87,
    "image": "images/tea.webp",
    "text": {
     "ru": "чай"
@@ -3954,12 +5527,13 @@
    "audio": {
     "ru": "audio/ru/tea.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "technology",
    "section": "household",
-   "order": 21,
+   "order": 25,
    "image": "images/technology.webp",
    "text": {
     "ru": "технологии"
@@ -3967,7 +5541,8 @@
    "audio": {
     "ru": "audio/ru/technology.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "teeth",
@@ -3980,7 +5555,8 @@
    "audio": {
     "ru": "audio/ru/teeth.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "tennis",
@@ -3993,7 +5569,36 @@
    "audio": {
     "ru": "audio/ru/tennis.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "thin",
+   "section": "descriptors",
+   "order": 32,
+   "image": "images/thin.webp",
+   "text": {
+    "ru": "тонкий"
+   },
+   "audio": {
+    "ru": "audio/ru/thin.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
+  },
+  {
+   "id": "thirsty",
+   "section": "feelings",
+   "order": 14,
+   "image": "images/thirsty.webp",
+   "text": {
+    "ru": "хочу пить"
+   },
+   "audio": {
+    "ru": "audio/ru/thirsty.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "throat",
@@ -4006,12 +5611,13 @@
    "audio": {
     "ru": "audio/ru/throat.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "tie",
    "section": "clothes",
-   "order": 18,
+   "order": 25,
    "image": "images/tie.webp",
    "text": {
     "ru": "галстук"
@@ -4019,12 +5625,41 @@
    "audio": {
     "ru": "audio/ru/tie.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "timer",
+   "section": "dishes",
+   "order": 16,
+   "image": "images/timer.webp",
+   "text": {
+    "ru": "таймер"
+   },
+   "audio": {
+    "ru": "audio/ru/timer.mp3"
+   },
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "tired",
+   "section": "feelings",
+   "order": 15,
+   "image": "images/tired.webp",
+   "text": {
+    "ru": "уставший"
+   },
+   "audio": {
+    "ru": "audio/ru/tired.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "to_armwrestle",
    "section": "toys_games",
-   "order": 18,
+   "order": 19,
    "image": "images/to_armwrestle.webp",
    "text": {
     "ru": "армреслинг"
@@ -4032,12 +5667,13 @@
    "audio": {
     "ru": "audio/ru/to_armwrestle.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "to_bake",
    "section": "actions",
-   "order": 10,
+   "order": 11,
    "image": "images/to_bake.webp",
    "text": {
     "ru": "печь"
@@ -4045,12 +5681,13 @@
    "audio": {
     "ru": "audio/ru/to_bake.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_bathe",
    "section": "actions",
-   "order": 11,
+   "order": 12,
    "image": "images/to_bathe.webp",
    "text": {
     "ru": "принимать ванну"
@@ -4058,12 +5695,13 @@
    "audio": {
     "ru": "audio/ru/to_bathe.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_bite",
    "section": "food",
-   "order": 81,
+   "order": 88,
    "image": "images/to_bite.webp",
    "text": {
     "ru": "кусать"
@@ -4071,12 +5709,13 @@
    "audio": {
     "ru": "audio/ru/to_bite.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "to_blink",
    "section": "actions",
-   "order": 12,
+   "order": 13,
    "image": "images/to_blink.webp",
    "text": {
     "ru": "моргать"
@@ -4084,12 +5723,13 @@
    "audio": {
     "ru": "audio/ru/to_blink.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_blow",
    "section": "actions",
-   "order": 13,
+   "order": 14,
    "image": "images/to_blow.webp",
    "text": {
     "ru": "дуть"
@@ -4097,12 +5737,13 @@
    "audio": {
     "ru": "audio/ru/to_blow.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_carry",
    "section": "actions",
-   "order": 14,
+   "order": 15,
    "image": "images/to_carry.webp",
    "text": {
     "ru": "нести"
@@ -4110,12 +5751,13 @@
    "audio": {
     "ru": "audio/ru/to_carry.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_change_mind",
    "section": "actions",
-   "order": 15,
+   "order": 16,
    "image": "images/to_change_mind.webp",
    "text": {
     "ru": "передумать"
@@ -4123,12 +5765,13 @@
    "audio": {
     "ru": "audio/ru/to_change_mind.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_chase",
    "section": "actions",
-   "order": 16,
+   "order": 17,
    "image": "images/to_chase.webp",
    "text": {
     "ru": "преследовать"
@@ -4136,12 +5779,27 @@
    "audio": {
     "ru": "audio/ru/to_chase.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
+  },
+  {
+   "id": "to_chew",
+   "section": "food",
+   "order": 89,
+   "image": "images/to_chew.webp",
+   "text": {
+    "ru": "жевать"
+   },
+   "audio": {
+    "ru": "audio/ru/to_chew.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "to_chop",
    "section": "actions",
-   "order": 17,
+   "order": 18,
    "image": "images/to_chop.webp",
    "text": {
     "ru": "нарезать"
@@ -4149,12 +5807,13 @@
    "audio": {
     "ru": "audio/ru/to_chop.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_clean_window",
    "section": "actions",
-   "order": 18,
+   "order": 19,
    "image": "images/to_clean_window.webp",
    "text": {
     "ru": "мыть окно"
@@ -4162,12 +5821,13 @@
    "audio": {
     "ru": "audio/ru/to_clean_window.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_climb_up",
    "section": "actions",
-   "order": 19,
+   "order": 20,
    "image": "images/to_climb_up.webp",
    "text": {
     "ru": "взбираться вверх"
@@ -4175,12 +5835,13 @@
    "audio": {
     "ru": "audio/ru/to_climb_up.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_cover_food",
    "section": "actions",
-   "order": 20,
+   "order": 21,
    "image": "images/to_cover_food.webp",
    "text": {
     "ru": "запекать"
@@ -4188,12 +5849,13 @@
    "audio": {
     "ru": "audio/ru/to_cover_food.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_crawl",
    "section": "actions",
-   "order": 21,
+   "order": 22,
    "image": "images/to_crawl.webp",
    "text": {
     "ru": "ползти"
@@ -4201,12 +5863,13 @@
    "audio": {
     "ru": "audio/ru/to_crawl.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_crush",
    "section": "actions",
-   "order": 22,
+   "order": 23,
    "image": "images/to_crush.webp",
    "text": {
     "ru": "давить"
@@ -4214,12 +5877,13 @@
    "audio": {
     "ru": "audio/ru/to_crush.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_daydream",
    "section": "actions",
-   "order": 23,
+   "order": 24,
    "image": "images/to_daydream.webp",
    "text": {
     "ru": "мечтать"
@@ -4227,12 +5891,27 @@
    "audio": {
     "ru": "audio/ru/to_daydream.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
+  },
+  {
+   "id": "to_drip",
+   "section": "descriptors",
+   "order": 33,
+   "image": "images/to_drip.webp",
+   "text": {
+    "ru": "капать"
+   },
+   "audio": {
+    "ru": "audio/ru/to_drip.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "to_drown",
    "section": "actions",
-   "order": 24,
+   "order": 25,
    "image": "images/to_drown.webp",
    "text": {
     "ru": "тонуть"
@@ -4240,12 +5919,13 @@
    "audio": {
     "ru": "audio/ru/to_drown.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_dust",
    "section": "actions",
-   "order": 25,
+   "order": 26,
    "image": "images/to_dust.webp",
    "text": {
     "ru": "пыль"
@@ -4253,12 +5933,13 @@
    "audio": {
     "ru": "audio/ru/to_dust.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_escape",
    "section": "actions",
-   "order": 26,
+   "order": 27,
    "image": "images/to_escape.webp",
    "text": {
     "ru": "сбежать"
@@ -4266,12 +5947,13 @@
    "audio": {
     "ru": "audio/ru/to_escape.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_fall_off",
    "section": "actions",
-   "order": 27,
+   "order": 28,
    "image": "images/to_fall_off.webp",
    "text": {
     "ru": "падать"
@@ -4279,12 +5961,13 @@
    "audio": {
     "ru": "audio/ru/to_fall_off.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_fry",
    "section": "actions",
-   "order": 28,
+   "order": 29,
    "image": "images/to_fry.webp",
    "text": {
     "ru": "жарить"
@@ -4292,12 +5975,13 @@
    "audio": {
     "ru": "audio/ru/to_fry.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_get_dressed",
    "section": "actions",
-   "order": 29,
+   "order": 30,
    "image": "images/to_get_dressed.webp",
    "text": {
     "ru": "одеться"
@@ -4305,12 +5989,13 @@
    "audio": {
     "ru": "audio/ru/to_get_dressed.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_go_in",
    "section": "actions",
-   "order": 30,
+   "order": 31,
    "image": "images/to_go_in.webp",
    "text": {
     "ru": "войти"
@@ -4318,12 +6003,13 @@
    "audio": {
     "ru": "audio/ru/to_go_in.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_grate",
    "section": "actions",
-   "order": 31,
+   "order": 32,
    "image": "images/to_grate.webp",
    "text": {
     "ru": "натирать"
@@ -4331,12 +6017,13 @@
    "audio": {
     "ru": "audio/ru/to_grate.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_grow",
    "section": "actions",
-   "order": 32,
+   "order": 33,
    "image": "images/to_grow.webp",
    "text": {
     "ru": "расти"
@@ -4344,12 +6031,13 @@
    "audio": {
     "ru": "audio/ru/to_grow.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_hang",
    "section": "actions",
-   "order": 33,
+   "order": 34,
    "image": "images/to_hang.webp",
    "text": {
     "ru": "висеть"
@@ -4357,12 +6045,27 @@
    "audio": {
     "ru": "audio/ru/to_hang.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
+  },
+  {
+   "id": "to_hear",
+   "section": "body",
+   "order": 24,
+   "image": "images/to_hear.webp",
+   "text": {
+    "ru": "слышать"
+   },
+   "audio": {
+    "ru": "audio/ru/to_hear.mp3"
+   },
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "to_hold",
    "section": "actions",
-   "order": 34,
+   "order": 35,
    "image": "images/to_hold.webp",
    "text": {
     "ru": "держать"
@@ -4370,12 +6073,13 @@
    "audio": {
     "ru": "audio/ru/to_hold.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_knock",
    "section": "actions",
-   "order": 35,
+   "order": 36,
    "image": "images/to_knock.webp",
    "text": {
     "ru": "стучать"
@@ -4383,12 +6087,13 @@
    "audio": {
     "ru": "audio/ru/to_knock.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_melt",
    "section": "actions",
-   "order": 36,
+   "order": 37,
    "image": "images/to_melt.webp",
    "text": {
     "ru": "таять"
@@ -4396,12 +6101,13 @@
    "audio": {
     "ru": "audio/ru/to_melt.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_move",
    "section": "actions",
-   "order": 37,
+   "order": 38,
    "image": "images/to_move.webp",
    "text": {
     "ru": "двигаться"
@@ -4409,12 +6115,13 @@
    "audio": {
     "ru": "audio/ru/to_move.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_pick",
    "section": "actions",
-   "order": 38,
+   "order": 39,
    "image": "images/to_pick.webp",
    "text": {
     "ru": "выбрать"
@@ -4422,12 +6129,13 @@
    "audio": {
     "ru": "audio/ru/to_pick.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_pick_up",
    "section": "actions",
-   "order": 39,
+   "order": 40,
    "image": "images/to_pick_up.webp",
    "text": {
     "ru": "поднять"
@@ -4435,12 +6143,13 @@
    "audio": {
     "ru": "audio/ru/to_pick_up.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_polish_nails",
    "section": "actions",
-   "order": 40,
+   "order": 41,
    "image": "images/to_polish_nails.webp",
    "text": {
     "ru": "маникюр"
@@ -4448,12 +6157,13 @@
    "audio": {
     "ru": "audio/ru/to_polish_nails.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_push_down",
    "section": "actions",
-   "order": 41,
+   "order": 42,
    "image": "images/to_push_down.webp",
    "text": {
     "ru": "сжимать"
@@ -4461,12 +6171,13 @@
    "audio": {
     "ru": "audio/ru/to_push_down.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_put_away",
    "section": "actions",
-   "order": 42,
+   "order": 43,
    "image": "images/to_put_away.webp",
    "text": {
     "ru": "убрать"
@@ -4474,12 +6185,13 @@
    "audio": {
     "ru": "audio/ru/to_put_away.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_reach_for",
    "section": "actions",
-   "order": 43,
+   "order": 44,
    "image": "images/to_reach_for.webp",
    "text": {
     "ru": "дотянуться"
@@ -4487,12 +6199,13 @@
    "audio": {
     "ru": "audio/ru/to_reach_for.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_rest",
    "section": "actions",
-   "order": 44,
+   "order": 45,
    "image": "images/to_rest.webp",
    "text": {
     "ru": "отдыхать"
@@ -4500,12 +6213,13 @@
    "audio": {
     "ru": "audio/ru/to_rest.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_rub",
    "section": "actions",
-   "order": 45,
+   "order": 46,
    "image": "images/to_rub.webp",
    "text": {
     "ru": "тереть"
@@ -4513,12 +6227,13 @@
    "audio": {
     "ru": "audio/ru/to_rub.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_scoop",
    "section": "actions",
-   "order": 46,
+   "order": 47,
    "image": "images/to_scoop.webp",
    "text": {
     "ru": "черпать"
@@ -4526,12 +6241,13 @@
    "audio": {
     "ru": "audio/ru/to_scoop.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_sew",
    "section": "actions",
-   "order": 47,
+   "order": 48,
    "image": "images/to_sew.webp",
    "text": {
     "ru": "шить"
@@ -4539,12 +6255,13 @@
    "audio": {
     "ru": "audio/ru/to_sew.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_shave",
    "section": "actions",
-   "order": 48,
+   "order": 49,
    "image": "images/to_shave.webp",
    "text": {
     "ru": "бриться"
@@ -4552,12 +6269,13 @@
    "audio": {
     "ru": "audio/ru/to_shave.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_shout",
    "section": "actions",
-   "order": 49,
+   "order": 50,
    "image": "images/to_shout.webp",
    "text": {
     "ru": "кричать"
@@ -4565,12 +6283,13 @@
    "audio": {
     "ru": "audio/ru/to_shout.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_smear",
    "section": "actions",
-   "order": 50,
+   "order": 51,
    "image": "images/to_smear.webp",
    "text": {
     "ru": "мазать"
@@ -4578,12 +6297,13 @@
    "audio": {
     "ru": "audio/ru/to_smear.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_stamp",
    "section": "actions",
-   "order": 51,
+   "order": 52,
    "image": "images/to_stamp.webp",
    "text": {
     "ru": "топать"
@@ -4591,12 +6311,13 @@
    "audio": {
     "ru": "audio/ru/to_stamp.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_stroke",
    "section": "actions",
-   "order": 52,
+   "order": 53,
    "image": "images/to_stroke.webp",
    "text": {
     "ru": "гладить"
@@ -4604,12 +6325,13 @@
    "audio": {
     "ru": "audio/ru/to_stroke.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_study",
    "section": "actions",
-   "order": 53,
+   "order": 54,
    "image": "images/to_study.webp",
    "text": {
     "ru": "учиться"
@@ -4617,12 +6339,13 @@
    "audio": {
     "ru": "audio/ru/to_study.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_tidy_up",
    "section": "actions",
-   "order": 54,
+   "order": 55,
    "image": "images/to_tidy_up.webp",
    "text": {
     "ru": "прибраться"
@@ -4630,12 +6353,13 @@
    "audio": {
     "ru": "audio/ru/to_tidy_up.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_trace",
    "section": "actions",
-   "order": 55,
+   "order": 56,
    "image": "images/to_trace.webp",
    "text": {
     "ru": "обвести"
@@ -4643,12 +6367,13 @@
    "audio": {
     "ru": "audio/ru/to_trace.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_undress",
    "section": "actions",
-   "order": 56,
+   "order": 57,
    "image": "images/to_undress.webp",
    "text": {
     "ru": "раздеться"
@@ -4656,7 +6381,8 @@
    "audio": {
     "ru": "audio/ru/to_undress.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_vomit",
@@ -4669,12 +6395,13 @@
    "audio": {
     "ru": "audio/ru/to_vomit.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "to_wash_face",
    "section": "actions",
-   "order": 57,
+   "order": 58,
    "image": "images/to_wash_face.webp",
    "text": {
     "ru": "мыть лицо"
@@ -4682,12 +6409,13 @@
    "audio": {
     "ru": "audio/ru/to_wash_face.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_wash_up",
    "section": "actions",
-   "order": 58,
+   "order": 59,
    "image": "images/to_wash_up.webp",
    "text": {
     "ru": "вымыть"
@@ -4695,12 +6423,13 @@
    "audio": {
     "ru": "audio/ru/to_wash_up.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_weigh_person",
    "section": "actions",
-   "order": 59,
+   "order": 60,
    "image": "images/to_weigh_person.webp",
    "text": {
     "ru": "взвеситься"
@@ -4708,7 +6437,8 @@
    "audio": {
     "ru": "audio/ru/to_weigh_person.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "to_write",
@@ -4721,12 +6451,13 @@
    "audio": {
     "ru": "audio/ru/to_write.mp3"
    },
-   "pos": "interj"
+   "pos": "interj",
+   "prio": 2
   },
   {
    "id": "to_yawn",
    "section": "actions",
-   "order": 60,
+   "order": 61,
    "image": "images/to_yawn.webp",
    "text": {
     "ru": "зевать"
@@ -4734,12 +6465,13 @@
    "audio": {
     "ru": "audio/ru/to_yawn.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "toad",
    "section": "animals",
-   "order": 32,
+   "order": 33,
    "image": "images/toad.webp",
    "text": {
     "ru": "жаба"
@@ -4747,12 +6479,13 @@
    "audio": {
     "ru": "audio/ru/toad.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "toast",
    "section": "dishes",
-   "order": 13,
+   "order": 17,
    "image": "images/toast.webp",
    "text": {
     "ru": "тост"
@@ -4760,12 +6493,13 @@
    "audio": {
     "ru": "audio/ru/toast.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "toaster",
    "section": "dishes",
-   "order": 14,
+   "order": 18,
    "image": "images/toaster.webp",
    "text": {
     "ru": "тостер"
@@ -4773,12 +6507,13 @@
    "audio": {
     "ru": "audio/ru/toaster.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "tomato",
    "section": "food",
-   "order": 82,
+   "order": 90,
    "image": "images/tomato.webp",
    "text": {
     "ru": "помидор"
@@ -4786,12 +6521,13 @@
    "audio": {
     "ru": "audio/ru/tomato.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "tomato_juice",
    "section": "food",
-   "order": 83,
+   "order": 91,
    "image": "images/tomato_juice.webp",
    "text": {
     "ru": "томатный сок"
@@ -4799,12 +6535,13 @@
    "audio": {
     "ru": "audio/ru/tomato_juice.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "tomato_soup",
    "section": "food",
-   "order": 84,
+   "order": 92,
    "image": "images/tomato_soup.webp",
    "text": {
     "ru": "томатный суп"
@@ -4812,12 +6549,13 @@
    "audio": {
     "ru": "audio/ru/tomato_soup.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "toy_car",
    "section": "toys_games",
-   "order": 19,
+   "order": 20,
    "image": "images/toy_car.webp",
    "text": {
     "ru": "игрушечная машина"
@@ -4825,7 +6563,36 @@
    "audio": {
     "ru": "audio/ru/toy_car.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "trainers",
+   "section": "clothes",
+   "order": 26,
+   "image": "images/trainers.webp",
+   "text": {
+    "ru": "кросовки"
+   },
+   "audio": {
+    "ru": "audio/ru/trainers.mp3"
+   },
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "ugly",
+   "section": "descriptors",
+   "order": 34,
+   "image": "images/ugly.webp",
+   "text": {
+    "ru": "уродливый"
+   },
+   "audio": {
+    "ru": "audio/ru/ugly.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "uranus",
@@ -4838,12 +6605,13 @@
    "audio": {
     "ru": "audio/ru/uranus.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "varnish",
    "section": "household",
-   "order": 22,
+   "order": 26,
    "image": "images/varnish.webp",
    "text": {
     "ru": "лак"
@@ -4851,12 +6619,13 @@
    "audio": {
     "ru": "audio/ru/varnish.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "vegetable_soup",
    "section": "food",
-   "order": 85,
+   "order": 93,
    "image": "images/vegetable_soup.webp",
    "text": {
     "ru": "овощной суп"
@@ -4864,12 +6633,13 @@
    "audio": {
     "ru": "audio/ru/vegetable_soup.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "verbs_collective",
    "section": "actions",
-   "order": 61,
+   "order": 62,
    "image": "images/verbs_collective.webp",
    "text": {
     "ru": "глаголы"
@@ -4877,12 +6647,13 @@
    "audio": {
     "ru": "audio/ru/verbs_collective.mp3"
    },
-   "pos": "v"
+   "pos": "v",
+   "prio": 2
   },
   {
    "id": "vest",
    "section": "clothes",
-   "order": 19,
+   "order": 27,
    "image": "images/vest.webp",
    "text": {
     "ru": "майка"
@@ -4890,12 +6661,13 @@
    "audio": {
     "ru": "audio/ru/vest.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "visor",
    "section": "clothes",
-   "order": 20,
+   "order": 28,
    "image": "images/visor.webp",
    "text": {
     "ru": "козырек"
@@ -4903,12 +6675,13 @@
    "audio": {
     "ru": "audio/ru/visor.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "wafer",
    "section": "food",
-   "order": 86,
+   "order": 94,
    "image": "images/wafer.webp",
    "text": {
     "ru": "вафля"
@@ -4916,12 +6689,13 @@
    "audio": {
     "ru": "audio/ru/wafer.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "waistcoat",
    "section": "clothes",
-   "order": 21,
+   "order": 29,
    "image": "images/waistcoat.webp",
    "text": {
     "ru": "жилет"
@@ -4929,12 +6703,13 @@
    "audio": {
     "ru": "audio/ru/waistcoat.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "walrus",
    "section": "animals",
-   "order": 33,
+   "order": 34,
    "image": "images/walrus.webp",
    "text": {
     "ru": "морж"
@@ -4942,12 +6717,13 @@
    "audio": {
     "ru": "audio/ru/walrus.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "wasp",
    "section": "animals",
-   "order": 34,
+   "order": 35,
    "image": "images/wasp.webp",
    "text": {
     "ru": "оса"
@@ -4955,12 +6731,13 @@
    "audio": {
     "ru": "audio/ru/wasp.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "watermelon",
    "section": "food",
-   "order": 87,
+   "order": 95,
    "image": "images/watermelon.webp",
    "text": {
     "ru": "арбуз"
@@ -4968,12 +6745,27 @@
    "audio": {
     "ru": "audio/ru/watermelon.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
+  },
+  {
+   "id": "wet",
+   "section": "descriptors",
+   "order": 35,
+   "image": "images/wet.webp",
+   "text": {
+    "ru": "мокрый"
+   },
+   "audio": {
+    "ru": "audio/ru/wet.mp3"
+   },
+   "pos": "adj",
+   "prio": 2
   },
   {
    "id": "witch",
    "section": "toys_games",
-   "order": 20,
+   "order": 21,
    "image": "images/witch.webp",
    "text": {
     "ru": "ведьма"
@@ -4981,12 +6773,13 @@
    "audio": {
     "ru": "audio/ru/witch.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "xylophone",
    "section": "toys_games",
-   "order": 21,
+   "order": 22,
    "image": "images/xylophone.webp",
    "text": {
     "ru": "ксилофон"
@@ -4994,12 +6787,13 @@
    "audio": {
     "ru": "audio/ru/xylophone.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "yummy",
    "section": "food",
-   "order": 88,
+   "order": 96,
    "image": "images/yummy.webp",
    "text": {
     "ru": "вкусно"
@@ -5007,12 +6801,13 @@
    "audio": {
     "ru": "audio/ru/yummy.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   },
   {
    "id": "zebra",
    "section": "animals",
-   "order": 35,
+   "order": 36,
    "image": "images/zebra.webp",
    "text": {
     "ru": "зебра"
@@ -5020,7 +6815,8 @@
    "audio": {
     "ru": "audio/ru/zebra.mp3"
    },
-   "pos": "n"
+   "pos": "n",
+   "prio": 2
   }
  ]
 }
