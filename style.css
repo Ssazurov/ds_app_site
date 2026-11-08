@@ -3,6 +3,10 @@
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 header{border-bottom:1px solid #8884;display:flex;align-items:center;justify-content:center;gap:8px}header .logo{display:flex;margin-left:16px}nav{margin:0;padding:12px 16px;display:flex;flex-wrap:wrap;gap:6px 16px}
 a{color:var(--ac)}main{max-width:860px;margin:0 auto;padding:16px}h1{font-size:1.7em;line-height:1.25}h2{margin-top:1.6em}
+h3 {
+    margin-top: 1.6em;
+    color: rgb(126, 92, 13)
+}
 footer{max-width:860px;margin:24px auto;padding:16px;color:var(--mut);font-size:.9em;border-top:1px solid #8884}
 .btn{display:inline-block;background:var(--ac);color:#fff;padding:12px 22px;border-radius:12px;text-decoration:none;font-weight:600}
 .note{background:#8881;border-left:4px solid var(--ac);padding:10px 14px;border-radius:6px}
@@ -18,3 +22,7 @@ a[aria-current=page]{font-weight:700;text-decoration:underline}
 .faq details{border-bottom:1px solid #8884;padding:8px 0}.faq summary{cursor:pointer;font-weight:600}.faq p{margin:8px 0 0}
 .tbl{overflow-x:auto}table{border-collapse:collapse}td,th{border:1px solid #8886;padding:6px 10px;text-align:left}code{word-break:break-all}.rel-sec{border-bottom:1px solid #8884;padding-bottom:8px}.doc-list li{margin:8px 0}
 .game{border-bottom:1px solid #8884;padding-bottom:12px}.shots{display:flex;gap:12px;flex-wrap:wrap}.shots figure{margin:0}.shots img{max-width:200px;height:auto;border-radius:12px}
+
+.pic{display:block;width:100%;max-width:100%;height:auto;border-radius:12px;margin:0 0 16px}
+.just p,.just li{text-align:justify;hyphens:none;-webkit-hyphens:none}.just .cta,.just .facts li{text-align:left;hyphens:none}
+a{text-decoration-skip-ink:none}
