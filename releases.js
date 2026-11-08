@@ -9,14 +9,13 @@ function notes(t){var l=String(t||'').split('\n').map(function(s){return s.repla
 return l.length?'<ul>'+l.map(function(s){return'<li>'+esc(s)+'</li>';}).join('')+'</ul>':'';}
 var local=/^(localhost|127\.|192\.168\.)/.test(location.hostname);
 function url(r){return local?(r.apk_url||r.gh_apk_url):(r.gh_apk_url||r.apk_url);}
-function apk(r){return url(r)?'<p><a class="btn alt" href="'+esc(url(r))+'">Скачать APK '+esc(r.version)+(r.size_mb?' ('+esc(r.size_mb)+' МБ)':'')+'</a></p>'+
+function apk(r){return url(r)?'<p><a class="btn" href="'+esc(url(r))+'">Скачать APK '+esc(r.version)+(r.size_mb?' ('+esc(r.size_mb)+' МБ)':'')+'</a></p>'+
 (r.sha256?'<p class="note">SHA-256: <code>'+esc(r.sha256)+'</code></p>':''):'';}
 fetch('releases.json',{cache:'no-cache'}).then(function(x){return x.json();}).then(function(d){
 var rs=(d.releases||[]).slice().sort(cmp);
 if(!rs.length){el.innerHTML='<p>Версий пока нет.</p>';return;}
-if(mode==='download'){var r=rs[0];
-el.innerHTML='<h2>Версия '+esc(r.version)+' <small>от '+fmt(r.date)+'</small></h2>'+apk(r)+
-'<h3>Что нового</h3>'+notes(r.notes)+'<p><a href="news.html">Все версии</a></p>';return;}
-el.innerHTML=rs.map(function(r){return'<section class="rel-sec"><h2>'+esc(r.version)+' <small>'+fmt(r.date)+'</small></h2>'+notes(r.notes)+apk(r)+'</section>';}).join('');
+var r=rs[0];
+el.innerHTML='<h2>Версия '+esc(r.version)+' <small>от '+fmt(r.date)+'</small></h2>'+apk(r)+notes(r.notes)+
+(rs.length>1?'<details id="versions" class="rel-old"><summary><strong>Прежние версии ('+(rs.length-1)+')</strong></summary>'+rs.slice(1).map(function(o){return'<section class="rel-sec"><h3>'+esc(o.version)+' <small>от '+fmt(o.date)+'</small></h3>'+notes(o.notes)+'</section>';}).join('')+'</details>':'');
 }).catch(function(){el.innerHTML='<p>Не удалось загрузить список версий. Откройте <a href="https://www.rustore.ru/catalog/app/ru.ds.ds_app">RuStore</a>.</p>';});
 })();
