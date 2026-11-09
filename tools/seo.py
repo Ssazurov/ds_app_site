@@ -4,7 +4,7 @@
 import glob, html, os, re, subprocess
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE = os.environ.get('SITE_BASE', 'https://ssazurov.github.io/ds_app_site').rstrip('/')
+BASE = os.environ.get('SITE_BASE', 'https://ssazurov.github.io/ds_site').rstrip('/')
 NAME = 'Солнечный мир'
 OG_SRC, OG = 'main-1.png', 'og.png'
 DESC = {

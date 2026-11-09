@@ -3,4 +3,4 @@ Allow: /
 Disallow: /app/
 Disallow: /download/
 
-Sitemap: https://ssazurov.github.io/ds_app_site/sitemap.xml
+Sitemap: https://ssazurov.github.io/ds_site/sitemap.xml
