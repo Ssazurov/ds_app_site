@@ -51338,7 +51338,7 @@ $2(a,b){var s,r,q=null,p=this.a,o=p.aex(),n=t.w
 if(A.aN(a,q,n).w.a.a>900)n=3
 else n=A.aN(a,q,n).w.a.a>600?2:1
 s=t.p
-r=A.b([p.tl(B.a3A,"\u0421\u043b\u043e\u0432\u0430",p.t4("words"),B.c6,p.gavT(),"/w"),p.tl(B.a3y,"\u0423\u0433\u0430\u0434\u0430\u0439 \u0441\u043b\u043e\u0432\u043e",p.t4("guess"),B.dy,p.gajl(),"/g"),p.ZW(B.a3z,"\u0418\u0441\u0442\u043e\u0440\u0438\u0438",p.t4("stories"),B.bB,new A.azA(p)),p.tl(B.a3x,"\u042d\u043c\u043e\u0446\u0438\u0438",p.t4("emotions"),B.c6,new A.azB(p),"/e"),p.tl(B.a3u,"\u0421\u0442\u0440\u043e\u0438\u043c",p.t4("build"),B.HJ,p.gaom(),"/b"),p.tl(B.a3v,"\u0426\u0432\u0435\u0442\u0430",p.t4("colors"),B.Gn,new A.azC(p),"/c")],s)
+r=A.b([p.tl(B.a3A,"\u0421\u043b\u043e\u0432\u0430",p.t4("words"),B.c6,p.gavT(),"/w"),p.tl(B.a3y,"\u0423\u0433\u0430\u0434\u0430\u0439 \u0441\u043b\u043e\u0432\u043e",p.t4("guess"),B.dy,p.gajl(),"/g"),p.ZW(B.a3z,"\u0418\u0441\u0442\u043e\u0440\u0438\u0438",p.t4("stories"),B.bB,new A.azA(p)),p.tl(B.a3x,"\u042d\u043c\u043e\u0446\u0438\u0438",p.t4("emotions"),B.Gn,new A.azB(p),"/e"),p.tl(B.a3u,"\u0421\u0442\u0440\u043e\u0438\u043c",p.t4("build"),B.HJ,p.gaom(),"/b"),p.tl(B.a3v,"\u0426\u0432\u0435\u0442\u0430",p.t4("colors"),B.c6,new A.azC(p),"/c")],s)
 r.push(p.ZW(B.a3w,"\u0414\u043d\u0435\u0432\u043d\u0438\u043a \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f",B.KM,B.GW,new A.azD(p)))
 return A.cs(q,B.d3,A.ek(!0,A.bR(A.b([B.hw,A.cV(A.o3(1.6,r,n,28,28,B.d8,q),1)],s),B.aG,B.o,B.z),!1,B.V,!0),o,q,q,q)},
 $S:99}
